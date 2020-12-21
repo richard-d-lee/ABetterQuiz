@@ -1,0 +1,25 @@
+.placeholder {
+  border: 1px solid red;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 25%;
+  padding: 10px;
+}
+
+.login {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+}
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 15px;
+}
+.topBar {
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  background-color: rgb(198, 226, 231);
+}

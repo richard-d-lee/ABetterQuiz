@@ -15,6 +15,9 @@ class App extends React.Component {
             currentImage: ''
         }
     }
+    startClick() {
+        console.log('hello');
+    }
     componentDidMount() {
         let ntryList = Object.keys(quiz);
         this.setState({
@@ -43,8 +46,8 @@ class App extends React.Component {
                         <Placeholder name={'login'} />
                     </div>
                 </div>
-                <div className="get-started-button">
-                    <h1 className="start-text">Get Started!</h1>
+                <div id="get-started-button" onClick={this.startClick}>
+                    <h1 id="start-text">Get Started!</h1>
                 </div>
                 <a href={this.state.linkRef}>
                     <img className="image" src={this.state.currentImage}></img>

@@ -30,7 +30,7 @@ Austria: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [],
 
 Azerbaijan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/20/4720-050-10682DA7/Azerbaijan.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg'},
 
-Bahamas: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Bahamas: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/08/17008-050-DEE6FAE5/map-Bahamas.jpg', flag: 'https://flagpedia.net/data/flags/w1600/bs.png'},
 
 Bahrain: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
 

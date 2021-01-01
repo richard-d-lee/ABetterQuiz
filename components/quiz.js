@@ -32,45 +32,45 @@ Azerbaijan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], 
 
 Bahamas: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/08/17008-050-DEE6FAE5/map-Bahamas.jpg', flag: 'https://flagpedia.net/data/flags/w1600/bs.png'},
 
-Bahrain: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Bahrain: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/71/5771-050-6FB693B5/Bahrain-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Bahrain.svg'},
 
-Bangladesh: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Bangladesh: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/68/6268-050-04FB8622/Bangladesh.jpg', flag: 'https://starspangledflags.com/wp-content/uploads/bangladesh-national-flag.jpg'},
 
-Barbados: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Barbados: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/15/5115-050-3D357F53/Barbados-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Barbados.svg'},
 
-Belarus: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Belarus: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/02/6402-050-0AF9C1B1/Belarus.jpg', flag: 'https://i.pinimg.com/originals/02/a0/47/02a04736a83005b12728e0f218856f54.jpg'},
 
-Belgium: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Belgium: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/09/6409-050-B12B8BE2/Belgium.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg'},
 
-Belize: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Belize: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/11/7211-050-47C6E7CC/Belize-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/1200px-Flag_of_Belize.svg.png'},
 
-Benin: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Benin: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/67/5067-050-FCAD3096/Benin-map-boundaries-cities-locator.jpg', flag: 'https://cdn.britannica.com/37/5037-004-E474738C/Flag-Benin.jpg'},
 
-Bermuda: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Bermuda: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/90/62390-004-114E3913.jpg', flag: 'https://displaysales.com/wp-content/uploads/2020/01/bermuda-flag-1200x675.jpg'},
 
-Bhutan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Bhutan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/80/6480-050-1255B5E8/Bhutan.jpg', flag: 'https://i1.wp.com/www.bhutanforyou.com/wp-content/uploads/2019/10/flag-of-bhutan-bhutan-flag-nation.jpg?fit=1920%2C1274&ssl=1'},
 
-'Bolivia (Plurinational State of)': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Bolivia (Plurinational State of)': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/55/6755-050-E888D579/Bolivia-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bandera_de_Bolivia_%28Estado%29.svg/1200px-Bandera_de_Bolivia_%28Estado%29.svg.png'},
 
-'Bonaire, Sint Eustatius and Saba': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Bonaire, Sint Eustatius and Saba': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/39/163939-050-54782299/islands-Sint-Eustatius-Netherlands-Antilles-Maarten-Bonaire.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Flag_of_Bonaire.svg/1920px-Flag_of_Bonaire.svg.png'},
 
-'Bosnia and Herzegovina': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Bosnia and Herzegovina': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/05/6205-050-2F9AF35F/Bosnia-and-Herzegovina.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/1200px-Flag_of_Bosnia_and_Herzegovina.svg.png'},
 
-Botswana: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Botswana: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/19/4219-050-BE3F288D/Botswana-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_Botswana.svg'},
 
-'Bouvet Island': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Bouvet Island': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/10F13/production/_104759396_bouvet_island_640-nc.png', flag: 'https://flagpedia.net/data/flags/w580/bv.png'},
 
-Brazil: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Brazil: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/48/6848-050-6066FCBD/Brazil.jpg', flag: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png'},
 
-'British Indian Ocean Territory': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'British Indian Ocean Territory': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://upload.wikimedia.org/wikipedia/commons/9/96/British_Indian_Ocean_Territory_in_United_Kingdom.svg', flag: 'https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_the_Commissioner_of_the_British_Indian_Ocean_Territory.svg'},
 
-'Brunei Darussalam': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Brunei Darussalam': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/37/4037-050-1EDD88B9/Brunei-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Brunei.svg'},
 
-Bulgaria: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Bulgaria: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/07/6207-050-97312B84/Bulgaria-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg'},
 
-'Burkina Faso': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Burkina Faso': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/51/5051-050-93648A26/Burkina-Faso-boundaries-map-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/1200px-Flag_of_Burkina_Faso.svg.png'},
 
-Burundi: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Burundi: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/83/7183-050-986B1597/Burundi-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/5/50/Flag_of_Burundi.svg'},
 
 'Cabo Verde': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
 

@@ -70,7 +70,7 @@ Bulgaria: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], []
 
 'Burkina Faso': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/51/5051-050-93648A26/Burkina-Faso-boundaries-map-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/1200px-Flag_of_Burkina_Faso.svg.png'},
 
-Burundi: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/83/7183-050-986B1597/Burundi-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/5/50/Flag_of_Burundi.svg'},
+Burundi: {questions: ['', '', '', '', '', '', '', '', 's', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/83/7183-050-986B1597/Burundi-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/5/50/Flag_of_Burundi.svg'},
 
 'Cabo Verde': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
 

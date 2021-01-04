@@ -72,7 +72,7 @@ Bulgaria: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], []
 
 Burundi: {questions: ['', '', '', '', '', '', '', '', 's', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/83/7183-050-986B1597/Burundi-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/5/50/Flag_of_Burundi.svg'},
 
-'Cabo Verde': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Cabo Verde': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/53/5053-050-1314FB3C/Cape-Verde-boundaries-map-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_Cape_Verde_%282-3_ratio%29.svg/1200px-Flag_of_Cape_Verde_%282-3_ratio%29.svg.png'},
 
 Cambodia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
 

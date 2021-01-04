@@ -12,7 +12,8 @@ class App extends React.Component {
             countryList: [],
             currentCountry: '',
             linkRef: '',
-            currentImage: ''
+            currentImage: '',
+            currentFlag: ''
         }
     }
     startClick() {
@@ -22,12 +23,13 @@ class App extends React.Component {
         let ntryList = Object.keys(quiz);
         this.setState({
             countryList: ntryList,
-            currentCountry: ntryList[2],
+            currentCountry: ntryList[(Math.floor(Math.random() * 50))],
         }, () => {
             console.log(this.state.currentCountry);
             this.setState({
                 linkRef: `https://www.google.com/search?q=${this.state.currentCountry}`,
                 currentImage: quiz[this.state.currentCountry].image,
+                currentFlag: quiz[this.state.currentCountry].flag
             })
         })
     }
@@ -49,9 +51,14 @@ class App extends React.Component {
                 <div id="get-started-button" onClick={this.startClick}>
                     <h1 id="start-text">Get Started!</h1>
                 </div>
-                <a href={this.state.linkRef}>
-                    <img className="image" src={this.state.currentImage}></img>
-                </a>
+                <div className="images">
+                    <a href={this.state.linkRef}>
+                        <img className="flag" src={this.state.currentFlag}></img>
+                    </a>
+                    <a href={this.state.linkRef}>
+                        <img className="image" src={this.state.currentImage}></img>
+                    </a>
+                </div>
             </div>
 
         );

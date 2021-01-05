@@ -21,9 +21,10 @@ class App extends React.Component {
     }
     componentDidMount() {
         let ntryList = Object.keys(quiz);
+        console.log(ntryList.length)
         this.setState({
             countryList: ntryList,
-            currentCountry: ntryList[(Math.floor(Math.random() * 50))],
+            currentCountry: ntryList[(Math.floor(Math.random() * 251))],
         }, () => {
             console.log(this.state.currentCountry);
             this.setState({

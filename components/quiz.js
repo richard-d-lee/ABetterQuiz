@@ -258,245 +258,247 @@ Lithuania: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [
 
 Luxembourg: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/24/2224-050-6D0E5C79/Luxembourg.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Luxembourg.svg'},
 
-Macao: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Macao: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/73/23173-050-1077611F/Macau.jpg', flag: 'https://www.countryflags.com/wp-content/uploads/macau-flag-jpg-xl.jpg'},
 
-"Macedonia (the former Yugoslav Republic of)": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+"North Macedonia": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/11/6211-050-40683438/North-Macedonia-map.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_North_Macedonia.svg'},
 
-Madagascar: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Madagascar: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/47/2247-050-255D2414/Madagascar-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Madagascar.svg'},
 
-Malawi: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Malawi: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/24/4224-050-89BC4917/Malawi-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/1200px-Flag_of_Malawi.svg.png'},
 
-Malaysia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Malaysia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/43/4043-050-B9AA54A1/Malaysia-map-boundaries-cities-locator.jpg', flag: 'https://cdn11.bigcommerce.com/s-ey7tq/images/stencil/1280x1280/products/3404/18798/malaysia-flag__65890.1575392639.jpg?c=2'},
 
-Maldives: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Maldives: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/81/2281-050-1F05E9A6/Maldives-islands-map-locator-atoll.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Maldives.svg'},
 
-Mali: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Mali: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/59/5059-050-5383F4EC/Mali-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Mali.svg'},
 
-Malta: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Malta: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/87/2287-050-13D700F2/Malta.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Malta.svg'},
 
-'Marshall Islands': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Marshall Islands': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://www.spc.int/sites/default/files/styles/max_1300x1300/public/2018-06/Marshall%20Islands%20-%20pacific%20community%20SPC%20copryrights.jpg?itok=ie0VPH5o', flag: 'https://www.countryflags.com/wp-content/uploads/marshall-islands-flag-png-large.png'},
 
-Martinique: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Martinique: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/19/5119-050-1B2E7F31/Martinique-map-boundaries-cities-locator.jpg', flag: 'https://i.redd.it/4yumt29l7xq01.png'},
 
-Mauritania: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Mauritania: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/61/5061-050-D295A0BA/Mauritania-map-boundaries-cities.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/4/43/Flag_of_Mauritania.svg'},
 
-Mauritius: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Mauritius: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/12/2412-050-530D0071/Mauritius-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Mauritius.svg'},
 
-Mayotte: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Mayotte: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://www.welt-atlas.de/datenbank/karten/en/karte-2-539-en.gif', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Mayotte_%28local%29.svg/1280px-Flag_of_Mayotte_%28local%29.svg.png'},
 
-Mexico: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Mexico: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/74/2574-050-3E5EB688/Mexico-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg'},
 
-"Micronesia (Federated States of)": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+"Micronesia (Federated States of)": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://reliefweb.int/sites/reliefweb.int/files/styles/report-large/public/resources-pdf-previews/9076-1F7EA2775DAAAB0D852573E7006E1B6F-ocha_REF_asi060331.png?itok=nxD9IcCP', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg/1200px-Flag_of_the_Federated_States_of_Micronesia.svg.png'},
 
-"Moldova (Republic of)": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+"Moldova (Republic of)": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/14/6214-050-2BD4D77F/Moldova-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Moldova.svg'},
 
-Monaco: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Monaco: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/51/2751-050-BCEFDF7C/Monaco-map-cities-boundaries-locator-landmarks.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Flag_of_Monaco.svg'},
 
-Mongolia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Mongolia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/57/2757-050-1D4BFF0D/Mongolia.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Mongolia.svg'},
 
-Montenegro: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Montenegro: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/79/95679-050-9D972407/Montenegro-Balkans-end-Dinaric-Alps.jpg', flag: 'https://www.worldatlas.com/upload/14/14/e4/me-flag.jpg'},
 
-Montserrat: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Montserrat: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/15/189215-050-65AAA97B/Montserrat.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Montserrat.svg'},
 
-Morocco: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Morocco: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/44/3044-050-701E3DFC/Morocco.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg'},
 
-Mozambique: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Mozambique: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/26/4226-050-008E161A/Mozambique-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Mozambique.svg'},
 
-Myanmar: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Myanmar: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/45/4045-050-4FB539EB/Myanmar-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/8/8c/Flag_of_Myanmar.svg'},
 
-Namibia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Namibia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/28/4228-050-2A8C39AE/Namibia.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/1200px-Flag_of_Namibia.svg.png'},
 
-Nauru: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Nauru: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/17/183717-050-67425E84/World-Data-Locator-Map-Nauru.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Flag_of_Nauru.svg/2000px-Flag_of_Nauru.svg.png'},
 
-Nepal: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Nepal: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/71/2971-050-DFFEE9ED/Nepal-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg'},
 
-Netherlands: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Netherlands: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/83/2983-050-78046F59/Netherlands-boundaries-map-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png'},
 
-'New Caledonia': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'New Caledonia': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/93/3293-050-0B8A93BE/New-Caledonia-map.jpg', flag: 'https://www.flagsonline.it/uploads/2019-11-13/1200-0/Nouvelle-caledonie_Drapeau_Flag_Bandiera.jpg'},
 
-'New Zealand': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'New Zealand': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/18/3018-050-0F7B095F/New-Zealand.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg'},
 
-Nicaragua: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Nicaragua: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/26/7226-050-060871EE/Nicaragua-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Nicaragua.svg'},
 
-Niger: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Niger: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/63/5063-050-04A2C7B9/Niger-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/f/f4/Flag_of_Niger.svg'},
 
-Nigeria: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Nigeria: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/79/5079-050-3D10C1FC/Nigeria-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg'},
 
-Niue: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Niue: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://www.spc.int/sites/default/files/styles/max_1300x1300/public/2018-06/Niue%20-%20pacific%20community%20SPC%20copryrights.jpg?itok=XxWx5OK_', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Niue.svg/1200px-Flag_of_Niue.svg.png'},
 
-'Norfolk Island': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Norfolk Island': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/71/189271-050-B6D4F3A3/Norfolk-Island.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Norfolk_Island.svg/1200px-Flag_of_Norfolk_Island.svg.png'},
 
-'Northern Mariana Islands': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Northern Mariana Islands': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/53/126453-050-4CA44C46/Northern-Mariana-Islands.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_the_Northern_Mariana_Islands.svg/1200px-Flag_of_the_Northern_Mariana_Islands.svg.png'},
 
-Norway: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Norway: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/02/3102-050-72122583/Norway-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg'},
 
-Oman: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Oman: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/77/5777-050-7D8C474C/Oman-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Oman.svg'},
 
-Pakistan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Pakistan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/47/3347-050-DEF193D0/Pakistan-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/1200px-Flag_of_Pakistan.svg.png'},
 
-Palau: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Palau: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/50/3350-050-6B9C3974/Palau-map-cities-boundaries-islands-locator-archipelago.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Palau.svg'},
 
-'Palestine, State of': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Palestine, State of': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/55/3355-050-CB05E0A7/UN-partition-plan-Palestine-1947.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg'},
 
-Panama: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Panama: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/28/7228-050-E0274A1A/Panama-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/1200px-Flag_of_Panama.svg.png'},
 
-'Papua New Guinea': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Papua New Guinea': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/89/3289-050-DAEEC067/Papua-New-Guinea.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/1200px-Flag_of_Papua_New_Guinea.svg.png'},
 
-Paraguay: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Paraguay: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/78/3378-050-13E41630/Paraguay-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Paraguay.svg'},
 
-Peru: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Peru: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/49/3449-050-39582464/Peru.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Peru_%28war%29.svg/1280px-Flag_of_Peru_%28war%29.svg.png'},
 
-Philippines: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Philippines: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/74/3474-050-504B4E2D/Philippines-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Flag_of_the_Philippines_%28vertical_display%29.svg'},
 
-Pitcairn: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Pitcairn: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://www.spc.int/sites/default/files/styles/max_1300x1300/public/2018-06/Pitcairn%20-%20pacific%20community%20SPC%20copryrights.jpg?itok=MedPGRUz', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_the_Pitcairn_Islands.svg/1200px-Flag_of_the_Pitcairn_Islands.svg.png'},
 
-Poland: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Poland: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/53/3553-050-2F51A3DD/Poland.jpg', flag: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1200px-Flag_of_Poland.svg.png'},
 
-Portugal: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Portugal: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/89/3589-050-1C16055D/Portugal-map-cities-boundaries-Azores-locator-Madeira.jpg', flag: 'https://www.graphicmaps.com/r/w1047/images/flags/pt-flag.jpg'},
 
-'Puerto Rico': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Puerto Rico': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/13/5113-050-1F045026/Puerto-Rico-boundaries-map-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/2/28/Flag_of_Puerto_Rico.svg'},
 
-Qatar: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Qatar: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/80/5780-050-D9E4C879/Qatar-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg'},
 
-'Republic of Kosovo': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Republic of Kosovo': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/79/118379-050-4D170037/Kosovo.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Flag_of_Kosovo.svg'},
 
-Romania: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Romania: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/16/6216-050-0C8DA829/Romania-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/1200px-Flag_of_Romania.svg.png'},
 
-'Russian Federation': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Russian Federation': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/43/3843-050-EED10137/Russia.jpg', flag: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png'},
 
-Rwanda: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Rwanda: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/95/7195-050-E5B42BAA/Rwanda-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Rwanda.svg'},
 
-Réunion: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Réunion: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/38/3738-050-D11963B4/Reunion.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Proposed_flag_of_R%C3%A9union_%28VAR%29.svg/1280px-Proposed_flag_of_R%C3%A9union_%28VAR%29.svg.png'},
 
-'Saint Barthélemy': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Saint Barthélemy': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/21/5121-050-D5D4E98D/Saint-Barthelemy-Saint-Martin-Sint-Maarten.jpg', flag: 'https://www.graphicmaps.com/r/w1047/images/flags/bl-flag.jpg'},
 
-'Saint Helena, Ascension and Tristan da Cunha': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Saint Helena, Ascension and Tristan da Cunha': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/11/50411-050-72208D1D/Islands-coast-Africa.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Saint_Helena.svg'},
 
-'Saint Kitts and Nevis': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Saint Kitts and Nevis': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/08/14308-050-AE4D047C/Saint-Kitts-and-Nevis-map-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg'},
 
-'Saint Lucia': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Saint Lucia': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/69/3869-050-A464AB23/Saint-Lucia-boundaries-map-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Saint_Lucia.svg'},
 
-"Saint Martin (French part)": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+"Saint Martin (French part)": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/21/5121-050-D5D4E98D/Saint-Barthelemy-Saint-Martin-Sint-Maarten.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Sint_Maarten.svg'},
 
-'Saint Pierre and Miquelon': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Saint Pierre and Miquelon': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/20/189220-050-649B8F1E/Saint-Pierre-Miquelon.jpg', flag: 'https://i.redd.it/ky88rnfmfpe01.jpg'},
 
-'Saint Vincent and the Grenadines': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Saint Vincent and the Grenadines': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/92/62492-004-D39AB41E.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg'},
 
-Samoa: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Samoa: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/02/3302-050-19A76564/Samoa-American.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Samoa.svg'},
 
-'San Marino': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'San Marino': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/08/4208-050-8FE9A5E2/city-San-Marino-slopes-republic-Mount-Titano.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_San_Marino.svg'},
 
-'Sao Tome and Principe': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Sao Tome and Principe': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/97/7197-050-293559CD/Sao-Tome-and-Principe-map-boundaries-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Sao_Tome_and_Principe.svg'},
 
-'Saudi Arabia': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Saudi Arabia': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/83/5783-050-C503296E/Saudi-Arabia-boundaries-map-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg'},
 
-Senegal: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Senegal: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/65/5065-050-B998C2F2/Senegal.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg'},
 
-Serbia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Serbia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/83/95683-050-5692FF82/Serbia-part-Balkan-Peninsula-most-Yugoslavia.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg'},
 
-Seychelles: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Seychelles: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/94/4094-050-7CF23DBE/Seychelles-map-cities-boundaries-locator-islands.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Seychelles.svg'},
 
-'Sierra Leone': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Sierra Leone': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/80/5080-050-94EB5392/Sierra-Leone-boundaries-map-cities-locator.jpg', flag: 'https://cdn.britannica.com/72/5072-004-66B471BA/Flag-Sierra-Leone.jpg'},
 
-Singapore: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Singapore: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/46/4046-050-DE1203AC/Singapore.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/1200px-Flag_of_Singapore.svg.png'},
 
-"Sint Maarten (Dutch part)": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+"Sint Maarten (Dutch part)": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/55/183755-050-8C0DC8D2/World-Data-Locator-Map-Sint-Maarten.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Sint_Maarten.svg'},
 
-Slovakia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Slovakia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/89/7889-050-66D5C5B4/Slovakia-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/1200px-Flag_of_Slovakia.svg.png'},
 
-Slovenia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Slovenia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/18/6218-050-7419B064/Slovenia-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg'},
 
-'Solomon Islands': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Solomon Islands': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/95/3295-050-2D02630B/Solomon-Islands-map-islands-cities-boundaries-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_the_Solomon_Islands.svg'},
 
-Somalia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Somalia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/26/26-050-6CEC395D/Somalia-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/1200px-Flag_of_Somalia.svg.png'},
 
-'South Africa': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'South Africa': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/30/4230-050-B944C675/South-Africa.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1200px-Flag_of_South_Africa.svg.png'},
 
-'South Georgia and the South Sandwich Islands': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'South Georgia and the South Sandwich Islands': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://www.comersis.com/c-images/GS/South-Georgia-and-South-Sandwich-Islands-map-b.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg/1200px-Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg.png'},
 
-'South Sudan': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'South Sudan': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/09/150409-050-126D313B/South-Sudan.jpg', flag: 'https://www.countryflags.com/wp-content/uploads/south-sudan-flag-png-large.png'},
 
-Spain: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Spain: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/37/4337-050-F5CCBA06/Spain.jpg', flag: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1200px-Flag_of_Spain.svg.png'},
 
-'Sri Lanka': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Sri Lanka': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/14/4414-050-18764C01/Sri-Lanka-boundaries-map-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Sri_Lanka.svg'},
 
-Sudan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Sudan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/97/4497-050-E4A9064F/Sudan-boundaries-map-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Sudan.svg'},
 
-Suriname: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Suriname: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/21/4521-050-426CF02E/Suriname-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/6/60/Flag_of_Suriname.svg'},
 
-'Svalbard and Jan Mayen': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Svalbard and Jan Mayen': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://www.mapsland.com/maps/europe/jan-mayen/detailed-political-map-of-svalbard-and-jan-mayen-island-with-relief-small.jpg', flag: 'https://images-na.ssl-images-amazon.com/images/I/51sOrv93GLL._AC_SL1500_.jpg'},
 
-Swaziland: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Swaziland: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/32/4232-050-A3AE258F/Eswatini-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Flag_of_Eswatini.svg'},
 
-Sweden: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Sweden: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/31/4531-050-7E780BAC/Sweden-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/1200px-Flag_of_Sweden.svg.png'},
 
-Switzerland: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Switzerland: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/44/4544-050-2C169D89/Switzerland-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/1200px-Flag_of_Switzerland.svg.png'},
 
-'Syrian Arab Republic': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Syrian Arab Republic': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/51/4551-050-98D9E63B/Syria-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/1280px-Flag_of_Syria.svg.png'},
 
-Taiwan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Taiwan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/63/4563-050-E13A0E05/Taiwan.jpg', flag: 'https://m.media-amazon.com/images/I/519rbLb3GhL._AC_SL1499_.jpg'},
 
-Tajikistan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Tajikistan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/49/7249-050-B595376E/Tajikistan-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Tajikistan.svg'},
 
-'Tanzania, United Republic of': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Tanzania, United Republic of': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/21/21-050-E37ED7D4/Tanzania-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tanzania.svg'},
 
-Thailand: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Thailand: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/47/4047-050-71A61B0E/Thailand-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg'},
 
-"Timor-Leste": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Tibet: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://mk0yowangdudp81eaem4.kinstacdn.com/wp-content/uploads/2020/01/tibetan-autonomous-prefectures.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flag_of_Tibet.svg/1200px-Flag_of_Tibet.svg.png'},
 
-Togo: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+"Timor-Leste": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/33/61833-050-302C6C05/East-Timor.jpg', flag: 'https://www.countryflags.com/wp-content/uploads/east-timor-flag-png-large.png'},
 
-Tokelau: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Togo: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/81/5081-050-EA5EDBF7/Togo-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/1200px-Flag_of_Togo.svg.png'},
 
-Tonga: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Tokelau: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/51/126451-050-D7338FA0/Pol-map-Tokelau.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Flag_of_Tokelau.svg'},
 
-'Trinidad and Tobago': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Tonga: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://www.lonelyplanet.com/maps/pacific/tonga/map_of_tonga.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Tonga.svg'},
 
-Tunisia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Trinidad and Tobago': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/23/5123-050-61212ACC/Trinidad-and-Tobago-boundaries-map-locator-cities.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Trinidad_and_Tobago.svg'},
 
-Turkey: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Tunisia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/45/3045-050-55330084/Tunisia-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg'},
 
-Turkmenistan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Turkey: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/83/4783-050-683BDB29/Turkey-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg'},
 
-'Turks and Caicos Islands': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Turkmenistan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/50/7250-050-AA4A915D/Turkmenistan-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Turkmenistan.svg'},
 
-Tuvalu: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Turks and Caicos Islands': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://www.ezilon.com/maps/images/caribbean/Turks-Caicos-Islands1.gif', flag: 'https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_the_Turks_and_Caicos_Islands.svg'},
 
-Uganda: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Tuvalu: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://www.spc.int/sites/default/files/styles/max_1300x1300/public/2018-06/Tuvalu%20-%20pacific%20community%20SPC%20copryrights.jpg?itok=c6QjO9gX', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/1200px-Flag_of_Tuvalu.svg.png'},
 
-Ukraine: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Uganda: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/23/23-050-E191633A/Uganda-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg'},
 
-'United Arab Emirates': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Ukraine: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/15/4815-050-F533DB64/Ukraine.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg'},
 
-'United Kingdom of Great Britain and Northern Ireland': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'United Arab Emirates': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/86/5786-050-2F3C1AB4/United-Arab-Emirates-boundaries-map-locator-cities.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/1280px-Flag_of_the_United_Arab_Emirates.svg.png'},
 
-'United States Minor Outlying Islands': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'United Kingdom of Great Britain and Northern Ireland': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/84/183784-050-51C82A95/World-Data-Locator-Map-United-Kingdom.jpg', flag: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png'},
 
-'United States of America': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'United States Minor Outlying Islands': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://ian.macky.net/pat/map/um/um_blu.gif', flag: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Palmyra_Atoll_%281941-1947%29.svg'},
 
-Uruguay: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'United States of America': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/34/4834-050-1D574040/United-States-of-America.jpg', flag: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png'},
 
-Uzbekistan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Uruguay: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/75/4875-050-67B1318F/Uruguay-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg'},
 
-Vanuatu: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Uzbekistan: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/56/7256-050-C1205B99/Uzbekistan-map-features-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg'},
 
-"Venezuela (Bolivarian Republic of)": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Vanuatu: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/97/3297-050-673E3C8E/Vanuatu-map-cities-boundaries-locator-islands.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Flag_of_Vanuatu_%28official%29.svg'},
 
-'Viet Nam': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+"Venezuela (Bolivarian Republic of)": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/05/4905-050-DE2129A0/Venezuela.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Venezuela.svg'},
 
-"Virgin Islands (British)": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Viet Nam': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/48/4048-050-2724E165/Vietnam-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1200px-Flag_of_Vietnam.svg.png'},
 
-"Virgin Islands (U.S.)": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+"Virgin Islands (British)": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/47/126547-050-55847F6C/political-physical-map-British-Virgin-Islands.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_the_British_Virgin_Islands.svg'},
 
-'Wallis and Futuna': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+"Virgin Islands (U.S.)": {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/34/4834-050-1D574040/United-States-of-America.jpg', flag: 'https://cdn.shopify.com/s/files/1/1381/2825/products/78b3bd1cb8d7627c90701d7a6066265b_2000x.png?v=1570060884'},
 
-'Western Sahara': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Wallis and Futuna': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/52/126452-050-5F0F8CB8/Wallis-Futuna.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Flag_of_Wallis_and_Futuna.svg/1200px-Flag_of_Wallis_and_Futuna.svg.png'},
 
-Yemen: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+'Western Sahara': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/s:700x500/38/124538-050-330B719F/Map-Western-Sahara.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg'},
 
-Zambia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Yemen: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/88/5788-050-4A67C78E/Yemen-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Yemen.svg'},
 
-Zimbabwe: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: '', flag: ''},
+Zambia: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/34/4234-050-788221B6/Zambia-map.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Zambia.svg'},
 
-'Åland Islands': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], []], image: '', flag: ''}
+Zimbabwe: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/35/4235-050-8A5A612C/Zimbabwe-map-boundaries-cities-locator.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Flag_of_Zimbabwe.svg'},
+
+'Åland Islands': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], []], image: 'https://static01.nyt.com/images/2019/11/11/t-magazine/11tmag-aland-slide-F8ZP/11tmag-aland-slide-F8ZP-mobileMasterAt3x.jpg', flag: 'https://www.gettysburgflag.com/media/catalog/product/cache/2/thumbnail/520x416/602f0fa2c1f0d1ba5e241f914e856ff9/a/l/aland-islands-flag.png'}
 }

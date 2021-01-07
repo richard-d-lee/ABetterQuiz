@@ -39,6 +39,7 @@ body {
   border-radius: 5%;
   padding: 33px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
 }
 .image {
   display: block;
@@ -48,12 +49,14 @@ body {
   height: 400px;
   display: flex;
   padding-left: 50x;
+  cursor: pointer;
 }
 .flag {
   width: auto;
   height: 400px;
   float: left;
   padding-right: 50px;
+  cursor: pointer;
 }
 .header {
   display: flex;

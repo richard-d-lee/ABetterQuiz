@@ -53,10 +53,10 @@ class App extends React.Component {
                     <h1 id="start-text">Get Started!</h1>
                 </div>
                 <div className="images">
-                    <a href={this.state.linkRef}>
+                    <a href={this.state.linkRef} target="_blank">
                         <img className="flag" src={this.state.currentFlag}></img>
                     </a>
-                    <a href={this.state.linkRef}>
+                    <a href={this.state.linkRef} target="_blank">
                         <img className="image" src={this.state.currentImage}></img>
                     </a>
                 </div>

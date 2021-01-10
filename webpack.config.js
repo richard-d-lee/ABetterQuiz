@@ -11,10 +11,16 @@ module.exports = {
             presets: ['@babel/preset-react', '@babel/preset-env'] // Environment Presets... Not 100% what these do
           }
         }
+      },
+      {
+        // For pure CSS (without CSS modules)
+        test: /\.css$/i,
+        exclude: /\.module\.css$/i,
+        use: ['style-loader', 'css-loader'],
       }
     ]
   },
-   output: { // IMPORTANT: This is where we set the bundle to be built into a folder
+  output: { // IMPORTANT: This is where we set the bundle to be built into a folder
     filename: 'bundle.js', // The name of the file to build
     path: __dirname + '/client/dist' // Where Webpack should place the file
   }

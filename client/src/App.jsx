@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import quiz from '/components/quiz.js';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Button from 'react-bootstrap/Button';
-import Placeholder from '/components/Placeholder.jsx'
+import Placeholder from '/components/Placeholder.jsx';
 
 class App extends React.Component {
     constructor(props) {
@@ -43,12 +43,22 @@ class App extends React.Component {
                         <Placeholder name={'Quistory'} />
                     </div>
                     <div className="header">
-                        <Placeholder name={'Scroll down to visit a random country!'}/>
+                        <Placeholder name={'Scroll down to visit a random country!'} />
                     </div>
                     <div className="login">
                         <Placeholder name={'login'} />
                     </div>
                 </div>
+                <Dropdown className="countryDrop">
+                        <Dropdown.Toggle variant="success" id="dropdown-basic">
+                            Select Country
+                        </Dropdown.Toggle>
+                        <Dropdown.Menu>
+                            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                        </Dropdown.Menu>
+                    </Dropdown>
                 <div id="get-started-button" onClick={this.startClick}>
                     <h1 id="start-text">Get Started!</h1>
                 </div>

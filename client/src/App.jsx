@@ -13,11 +13,23 @@ class App extends React.Component {
             currentCountry: '',
             linkRef: '',
             currentImage: '',
-            currentFlag: ''
+            currentFlag: '',
+            started: false
         }
+        this.startClick = this.startClick.bind(this);
+        this.startFunc = this.startFunc.bind(this);
+        this.countryClick = this.countryClick.bind(this);
+    }
+    countryClick(country) {
+        console.log('entering countryClick', country)
+        this.setState({
+            currentCountry: country,
+            currentImage: quiz[country].image,
+            currentFlag: quiz[country].flag
+        })
     }
     startClick() {
-        console.log('hello');
+        this.setState({ started: true })
     }
     componentDidMount() {
         let ntryList = Object.keys(quiz);
@@ -26,13 +38,21 @@ class App extends React.Component {
             countryList: ntryList,
             currentCountry: ntryList[(Math.floor(Math.random() * 251))],
         }, () => {
-            console.log(this.state.currentCountry);
             this.setState({
                 linkRef: `https://www.google.com/search?q=${this.state.currentCountry}`,
                 currentImage: quiz[this.state.currentCountry].image,
                 currentFlag: quiz[this.state.currentCountry].flag
             })
         })
+    }
+    startFunc() {
+        if (this.state.started === false) {
+            return (<div id="get-started-button" onClick={this.startClick}>
+                <h1 id="start-text">Get Started!</h1>
+            </div>)
+        } else {
+            return <h1>butter</h1>
+        }
     }
     render() {
 
@@ -50,18 +70,19 @@ class App extends React.Component {
                     </div>
                 </div>
                 <Dropdown className="countryDrop">
-                        <Dropdown.Toggle variant="success" id="dropdown-basic">
-                            Select Country
+                    <Dropdown.Toggle variant="success" id="dropdown-basic">
+                        Select Country
                         </Dropdown.Toggle>
-                        <Dropdown.Menu>
-                            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                        </Dropdown.Menu>
-                    </Dropdown>
-                <div id="get-started-button" onClick={this.startClick}>
-                    <h1 id="start-text">Get Started!</h1>
-                </div>
+                    <Dropdown.Menu>
+                        {this.state.countryList.map((country) => {
+                            return <Dropdown.Item onClick={() => { this.countryClick(country) }}>{country}</Dropdown.Item>
+                        }
+                        )}
+                    </Dropdown.Menu>
+                </Dropdown>
+                {
+                    this.startFunc()
+                }
                 <div className="images">
                     <a href={this.state.linkRef} target="_blank">
                         <img className="flag" src={this.state.currentFlag}></img>

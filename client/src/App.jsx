@@ -19,6 +19,7 @@ class App extends React.Component {
         this.startClick = this.startClick.bind(this);
         this.startFunc = this.startFunc.bind(this);
         this.countryClick = this.countryClick.bind(this);
+        this.scrollToBottom = this.scrollToBottom.bind(this);
     }
     countryClick(country) {
         console.log('entering countryClick', country)
@@ -45,10 +46,13 @@ class App extends React.Component {
             })
         })
     }
+    scrollToBottom() {
+        this.messagesEnd.scrollIntoView({ behavior: "smooth" });
+      }
     startFunc() {
         if (this.state.started === false) {
-            return (<div id="get-started-button" onClick={this.startClick}>
-                <h1 id="start-text">Get Started!</h1>
+            return (<div id="get-started-button">
+                <h1 onClick={this.startClick} id="start-text">Get Started!</h1>
             </div>)
         } else {
             return <h1>butter</h1>
@@ -59,17 +63,17 @@ class App extends React.Component {
         return (
             <div>
                 <div className="topBar">
-                    <div className="banner">
+                    <div className="banner" onClick={() => {window.location.reload(false)}}>
                         <Placeholder name={'Quistory'} />
                     </div>
-                    <div className="header">
+                    <div className="header" onClick={() => {this.scrollToBottom()}}>
                         <Placeholder name={'Scroll down to visit a random country!'} />
                     </div>
                     <div className="login">
                         <Placeholder name={'login'} />
                     </div>
                 </div>
-                <Dropdown className="countryDrop">
+                <Dropdown className="countryDrop" variant="primary">
                     <Dropdown.Toggle variant="success" id="dropdown-basic">
                         Select Country
                         </Dropdown.Toggle>
@@ -88,7 +92,7 @@ class App extends React.Component {
                         <img className="flag" src={this.state.currentFlag}></img>
                     </a>
                     <a href={this.state.linkRef} target="_blank">
-                        <img className="image" src={this.state.currentImage}></img>
+                        <img className="image" ref={(el) => { this.messagesEnd = el; }} src={this.state.currentImage}></img>
                     </a>
                 </div>
             </div>

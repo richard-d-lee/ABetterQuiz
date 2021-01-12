@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .placeholder {
   background-color: rgb(47, 93, 161);
   border: 5px solid rgb(134, 199, 219);

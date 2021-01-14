@@ -4,6 +4,7 @@ import quiz from '/components/quiz.js';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Button from 'react-bootstrap/Button';
 import Placeholder from '/components/Placeholder.jsx';
+import Login from '/components/Login.jsx'
 
 class App extends React.Component {
     constructor(props) {
@@ -70,7 +71,7 @@ class App extends React.Component {
                         <Placeholder name={'Scroll down to visit a random country!'} />
                     </div>
                     <div className="login">
-                        <Placeholder name={'login'} />
+                        <Login></Login>
                     </div>
                 </div>
                 <Dropdown className="countryDrop" variant="primary">

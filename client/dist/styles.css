@@ -29,7 +29,7 @@ html {
   height: fit-content;
   border-radius: 5%;
   padding: 10px;
-  font-size: 20px;
+  font-size: 18px;
   height: 170px;
   width: 955px;
   overflow: scroll;
@@ -77,10 +77,48 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.login-screen {
+  display: flex;
+  flex-direction: row;
+}
+
+.log-encourage {
+  margin-top: 15px;
+  font-size: 38px;
+}
+
+.why-register{
+  display: flex;
+  justify-content: center;
+  height: 258px;
+  width: 600px;
+  margin: 140px 0px 104px 170px;
+  background-color: rgb(47, 93, 161);
+  border: 10px solid rgb(236, 228, 220);
+  color: rgb(205, 229, 236);
+  border-radius: 5%;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form{
+  margin: 140px 0px 104px 260px;
+  background-color: rgb(47, 93, 161);
+  border: 10px solid rgb(236, 228, 220);
+  color: rgb(205, 229, 236);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5%;
+  padding: 10px;
+  cursor: pointer;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #selected-country-list {
   height: 264px;
   width: 535px;
-  font-size: xx-large !important;
+  font-size: x-large !important;
   overflow: scroll;
 }
 
@@ -152,6 +190,7 @@ html {
 }
 
 .get-started-button {
+  padding-top: 5px;
   padding-left: 30px;
   display: flex;
   justify-content: left;
@@ -346,7 +385,7 @@ div {
 @keyframes diagonal-slide {
 
   from {
-    left: -2000px;
+    left: -1700px;
     top: 475px;
   }
 

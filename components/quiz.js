@@ -470,7 +470,7 @@ Ukraine: {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [],
 
 'United Arab Emirates': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/86/5786-050-2F3C1AB4/United-Arab-Emirates-boundaries-map-locator-cities.jpg', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/1280px-Flag_of_the_United_Arab_Emirates.svg.png'},
 
-'United Kingdom of Great Britain and Northern Ireland': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/84/183784-050-51C82A95/World-Data-Locator-Map-United-Kingdom.jpg', flag: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png'},
+'United Kingdom of Great Britain': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://cdn.britannica.com/84/183784-050-51C82A95/World-Data-Locator-Map-United-Kingdom.jpg', flag: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png'},
 
 'United States Minor Outlying Islands': {questions: ['', '', '', '', '', '', '', '', '', ''], answers: [[], [], [], [], [], [], [], [], [], []], rewards: [], image: 'https://ian.macky.net/pat/map/um/um_blu.gif', flag: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Palmyra_Atoll_%281941-1947%29.svg'},
 

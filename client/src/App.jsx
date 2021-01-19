@@ -16,6 +16,7 @@ class App extends React.Component {
             currentImage: '',
             currentFlag: '',
             screen: 'start',
+            clickedCountries: [],
         }
         this.startClick = this.startClick.bind(this);
         this.startFunc = this.startFunc.bind(this);
@@ -25,7 +26,7 @@ class App extends React.Component {
         this.showLogin = this.showLogin.bind(this);
         this.renderGridMember = this.renderGridMember.bind(this);
         this.renderFullGrid = this.renderFullGrid.bind(this);
-        this.randomFlag = this.randomFlag.bind(this);
+        this.gridClicker = this.gridClicker.bind(this);
 
     }
     countryClick(country) {
@@ -63,36 +64,105 @@ class App extends React.Component {
             })
         })
     }
+    gridClicker(e) {
+        let countryList = this.state.clickedCountries;
+        let originalRef = e.target.parentElement.innerText;
+        let countryName = e.target.parentElement.innerText;
+        if (countryName.length > 21) {
+            countryName = countryName.split('');
+            if (countryName[21] !== '-') {
+                countryName.splice(21, 1, ' ');
+                countryName = countryName.join('');
+            } else {
+                countryName.splice(21, 2);
+                countryName = countryName.join('');
+            }
+        }
+        console.log('----', countryName)
+        if (!this.state.clickedCountries.includes(countryName)) {
+            countryList.push(countryName)
+            this.setState({clickedCountries: countryList}, () => {
+                console.log(this.state.clickedCountries);
+            })
+        } else {
+            let index = this.state.clickedCountries.indexOf(countryName);
+            countryList.splice(index, 1);
+            this.setState({clickedCountries: countryList}, () => {
+                console.log(this.state.clickedCountries);
+            })
+        }
+    }
     scrollToBottom() {
         this.messagesEnd.scrollIntoView({ behavior: "smooth" });
     }
-    renderGridMember() {
-        return (
-            <div className="gridMember">
-                <h3>hi</h3>
+    renderGridMember(country) {
+        if (this.state.clickedCountries.includes(country)) {
+            if (country.length > 21) {
+                let oneText = country.slice(0,21);
+                let splitText = oneText.split('');
+                console.log('uuuuuuuuuuuuu', splitText);
+                if (country[21] === ' ') {
+                    return (
+                        <div className="clickedMember" onClick={this.gridClicker}>
+                            <img className="gridImage" src={quiz[country].flag}></img>
+                            <h3 className="oneText">{country.slice(0, 21)}</h3>
+                            <h3 className="twoText">{country.slice(21)}</h3>
+                        </div>
+                    )
+                } else return (
+                    <div className="clickedMember" onClick={this.gridClicker}>
+                        <img className="gridImage" src={quiz[country].flag}></img>
+                        <h3 className="oneText">{country.slice(0, 21)}-</h3>
+                        <h3 className="twoText">{country.slice(21)}</h3>
+                    </div>
+                )
+            }
+            else return (
+                <div className="clickedMember" onClick={this.gridClicker}>
+                    <img className="gridImage" src={quiz[country].flag}></img>
+                    <h3 className="gridText">{country}</h3>
+                </div>
+            )
+        } else if (country.length > 21) {
+            let splitCountry = country.split('');
+            if (splitCountry[21] === ' ') {
+                return (
+                    <div className="gridMember" onClick={this.gridClicker}>
+                        <img className="gridImage" src={quiz[country].flag}></img>
+                        <h3 className="oneText">{country.slice(0, 21)}</h3>
+                        <h3 className="twoText">{country.slice(21)}</h3>
+                    </div>
+                )
+            } else return (
+                <div className="gridMember" onClick={this.gridClicker}>
+                    <img className="gridImage" src={quiz[country].flag}></img>
+                    <h3 className="oneText">{country.slice(0, 21)}-</h3>
+                    <h3 className="twoText">{country.slice(21)}</h3>
+                </div>
+            )
+        }
+        else return (
+            <div className="gridMember" onClick={this.gridClicker}>
+                <img className="gridImage" src={quiz[country].flag}></img>
+                <h3 className="gridText">{country}</h3>
             </div>
         )
     }
-    renderFullGrid(number) {
+    renderFullGrid(number, fullGrid = []) {
         for (let i = 0; i < number; i++) {
-            this.renderGridMember()
+            fullGrid.push(this.renderGridMember(this.state.countryList[i]))
         }
+        return (<div className="fullGrid">
+            {fullGrid}
+        </div>
+        );
     }
-    randomFlag() {
-        let randomIndex = (Math.floor(Math.random() * 251));
-        let randomCountry = this.state.countryList[randomIndex] || this.state.currentCountry;
-        console.log(randomCountry);
-        if (quiz[randomCountry]) {
-            return quiz[randomCountry].flag
-        } else {
-            return this.state.currentFlag;
-        }
-    }
+
     startFunc() {
         if (this.state.screen === 'start') {
             return (
             <div>
-                <img className="flier" src={this.randomFlag()}></img>
+                <img className="flier" src={this.state.currentFlag}></img>
                 <div className="midBar">
                     <div className="get-started-button">
                         <button className="midButt" onClick={this.startClick} id="start-text">Get Started!</button>
@@ -105,9 +175,9 @@ class App extends React.Component {
             )
         } else if (this.state.screen === "grid") {
             return <div>
-            <div className="midBar" id="interest-section">
-                <div className="get-started-button" id="interest-text">
-                    <h1 className="midButt" id="start-text">Which of these countries are you interested in?</h1>
+            <div className="midText">
+                <div className="interest-text">
+                    <h1 className="midTextTwo" id="start-text">Which of these countries are you interested in?</h1>
                 </div>
                 <div className="countryGrid">
                     {
@@ -123,7 +193,6 @@ class App extends React.Component {
         }
     }
     render() {
-
         return (
                 <div className="fullBody">
                     <div className="topBar">

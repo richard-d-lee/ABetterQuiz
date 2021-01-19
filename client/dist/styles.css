@@ -119,9 +119,30 @@ html {
   justify-content: space-between;
 }
 
-#interest-text {
+.midTextTwo {
+  display: flex;
+  background-color: rgb(47, 93, 161);
+  border: 5px solid rgb(169, 208, 219);
+  color: rgb(205, 229, 236);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5%;
+  padding: 10px;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-content: space-between;
+}
+
+.interest-text {
   height: 1000px;
   width: 565px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding-bottom: 250px;
+  font-size: x-large;
+  color: rgb(205, 229, 236);
 }
 
 .get-started-button {
@@ -140,11 +161,12 @@ html {
   color: rgb(205, 229, 236);
   border-radius: 5%;
   padding: 10px;
-  font-size: large;
+  font-size: small;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 500px;
   width: 790px;
   margin-left: 40px;
+  overflow: scroll;
 }
 
 .midBar {
@@ -160,11 +182,94 @@ html {
   border-radius: 5%;
   padding: 33px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  cursor: pointer;
 }
 body {
-  background-image: url('https://cutewallpaper.org/21/turquoise-background-wallpaper/Turquoise-Wallpapers-High-Quality-Download-Free.jpg');
+  background-image: url('https://i.imgur.com/YDmw0gW.jpg');
+  background-size: 150%;
+  background-position: center 1500px;
 }
+
+.gridText {
+  font-size: x-small;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+  overflow: auto;
+}
+
+.oneText {
+  font-size: x-small;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  overflow: auto;
+  cursor: pointer;
+}
+
+.midText {
+  padding-top: 101px;
+  display: flex;
+  flex-direction: row;
+}
+
+.clickedMember {
+  cursor: pointer;
+  background-color: rgb(197, 197, 197);
+  color: black;
+  border-radius: 20%;
+  margin: 7px;
+  height: 150px;
+  width: 150px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.clickedMember:hover {
+  background-color:  rgb(95, 154, 156);
+}
+
+.twoText{
+  cursor: pointer;
+  font-size: x-small;
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+  overflow: auto;
+}
+
+.gridImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 24px;
+  height: auto;
+  width: 106px;
+  max-height: 100px;
+  cursor: pointer;
+}
+
+.gridMember:hover{
+  background-color: rgb(39, 78, 138);
+}
+
+.gridMember {
+  background-color: rgb(81, 135, 216);
+  border-radius: 20%;
+  margin: 7px;
+  height: 150px;
+  width: 150px;
+  border: 2px solid white;
+}
+
+.fullGrid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+
 .image {
   display: block;
   margin-left: auto;

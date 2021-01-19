@@ -27,6 +27,8 @@ class App extends React.Component {
         this.renderGridMember = this.renderGridMember.bind(this);
         this.renderFullGrid = this.renderFullGrid.bind(this);
         this.gridClicker = this.gridClicker.bind(this);
+        this.submitCountries = this.submitCountries.bind(this);
+        this.countryListText = this.countryListText.bind(this);
 
     }
     countryClick(country) {
@@ -51,19 +53,6 @@ class App extends React.Component {
             screen: 'grid',
         })
     }
-    componentDidMount() {
-        let ntryList = Object.keys(quiz);
-        this.setState({
-            countryList: ntryList,
-            currentCountry: ntryList[(Math.floor(Math.random() * 251))],
-        }, () => {
-            this.setState({
-                linkRef: `https://www.google.com/search?q=${this.state.currentCountry}`,
-                currentImage: quiz[this.state.currentCountry].image,
-                currentFlag: quiz[this.state.currentCountry].flag
-            })
-        })
-    }
     gridClicker(e) {
         let countryList = this.state.clickedCountries;
         let originalRef = e.target.parentElement.innerText;
@@ -79,15 +68,15 @@ class App extends React.Component {
             }
         }
         console.log('----', countryName)
-        if (!this.state.clickedCountries.includes(countryName)) {
+        if (!this.state.clickedCountries.includes(countryName) && countryName.length < 100) {
             countryList.push(countryName)
-            this.setState({clickedCountries: countryList}, () => {
+            this.setState({ clickedCountries: countryList }, () => {
                 console.log(this.state.clickedCountries);
             })
-        } else {
+        } else  if (countryName.length < 100) {
             let index = this.state.clickedCountries.indexOf(countryName);
             countryList.splice(index, 1);
-            this.setState({clickedCountries: countryList}, () => {
+            this.setState({ clickedCountries: countryList }, () => {
                 console.log(this.state.clickedCountries);
             })
         }
@@ -98,9 +87,8 @@ class App extends React.Component {
     renderGridMember(country) {
         if (this.state.clickedCountries.includes(country)) {
             if (country.length > 21) {
-                let oneText = country.slice(0,21);
+                let oneText = country.slice(0, 21);
                 let splitText = oneText.split('');
-                console.log('uuuuuuuuuuuuu', splitText);
                 if (country[21] === ' ') {
                     return (
                         <div className="clickedMember" onClick={this.gridClicker}>
@@ -157,76 +145,113 @@ class App extends React.Component {
         </div>
         );
     }
-
+    countryListText() {
+        let finalStr = '';
+        for (let i = 0; i < this.state.clickedCountries.length; i++) {
+            if (i === this.state.clickedCountries.length - 1) {
+                finalStr += this.state.clickedCountries[i]
+            } else {
+                finalStr += this.state.clickedCountries[i] + ', '
+            }
+        }
+        return finalStr;
+    }
+    submitCountries() {
+        if (this.state.clickedCountries.length > 0) {
+            return (
+                <div>
+                    <h1 className="midTextTwo" id="selected-country-list">{this.countryListText()}</h1>
+                    <button className="submitCountries">Submit</button>
+                </div>)
+        } else return (
+            <h1 className="midTextTwo" id="start-text">Which of these countries are you interested in?</h1>
+        )
+    }
     startFunc() {
         if (this.state.screen === 'start') {
             return (
-            <div>
-                <img className="flier" src={this.state.currentFlag}></img>
-                <div className="midBar">
-                    <div className="get-started-button">
-                        <button className="midButt" onClick={this.startClick} id="start-text">Get Started!</button>
-                    </div>
-                    <div className="description-div">
-                        <h1 className="hello">The Quistory app is an effort to encourage and nurture curiosity about the world around us. Please use it to foster your desire to know about any country in the world, and hopefully lead yourself down a few rabbit holes of history and world culture. Cheers to you and your pursuit of knowledge.<br></br>-------------------------------------------Richard Lee--------------------------------------------</h1>
+                <div>
+                    <img className="flier" src={this.state.currentFlag}></img>
+                    <div className="midBar">
+                        <div className="get-started-button">
+                            <button className="midButt" onClick={this.startClick} id="start-text">Get Started!</button>
+                        </div>
+                        <div className="description-div">
+                            <h1 className="hello">The Quistory app is an effort to encourage and nurture curiosity about the world around us. Please use it to foster your desire to know about any country in the world, and hopefully lead yourself down a few rabbit holes of history and world culture. Cheers to you and your pursuit of knowledge.<br></br>-------------------------------------------Richard Lee--------------------------------------------</h1>
+                        </div>
                     </div>
                 </div>
-            </div>
             )
         } else if (this.state.screen === "grid") {
             return <div>
-            <div className="midText">
-                <div className="interest-text">
-                    <h1 className="midTextTwo" id="start-text">Which of these countries are you interested in?</h1>
-                </div>
-                <div className="countryGrid">
-                    {
-                        this.renderFullGrid(251)
-                    }
+                <div className="midText">
+                    <div>
+                        <div className="interest-text">
+                            {this.submitCountries()}
+                        </div>
+                    </div>
+                    <div className="countryGrid">
+                        {
+                            this.renderFullGrid(251)
+                        }
+                    </div>
                 </div>
             </div>
-        </div>
         } else if (this.state.screen === "login") {
             return <h1>login</h1>
         } else if (this.state.screen === "create") {
             return <h1>create</h1>
         }
     }
+    componentDidMount() {
+        let ntryList = Object.keys(quiz);
+        this.setState({
+            countryList: ntryList,
+            currentCountry: ntryList[(Math.floor(Math.random() * 251))],
+        }, () => {
+            this.setState({
+                linkRef: `https://www.google.com/search?q=${this.state.currentCountry}`,
+                currentImage: quiz[this.state.currentCountry].image,
+                currentFlag: quiz[this.state.currentCountry].flag
+            })
+        })
+    }
+
     render() {
         return (
-                <div className="fullBody">
-                    <div className="topBar">
-                        <div className="banner" onClick={() => { window.location.reload(false) }}>
-                            <Placeholder name={'Quistory'} />
+            <div className="fullBody">
+                <div className="topBar">
+                    <div className="banner" onClick={() => { window.location.reload(false) }}>
+                        <Placeholder name={'Quistory'} />
+                    </div>
+                    <div className="header" onClick={() => { this.scrollToBottom() }}>
+                        <Placeholder name={'Scroll down to visit ' + this.state.currentCountry + '!'} />
+                    </div>
+                    <div className="login">
+                        <div>
+                            <button className="create-button" onClick={e => {
+                                this.showCreate();
+                            }}> Create an Account </button>
                         </div>
-                        <div className="header" onClick={() => { this.scrollToBottom() }}>
-                            <Placeholder name={'Scroll down to visit ' + this.state.currentCountry + '!'} />
-                        </div>
-                        <div className="login">
-                            <div>
-                                <button className="create-button" onClick={e => {
-                                    this.showCreate();
-                                }}> Create an Account </button>
-                            </div>
-                            <div className="login-div">
-                                <button className="login-button" onClick={e => {
-                                    this.showLogin();
-                                }}> Log In </button>
-                            </div>
+                        <div className="login-div">
+                            <button className="login-button" onClick={e => {
+                                this.showLogin();
+                            }}> Log In </button>
                         </div>
                     </div>
-                    {
-                        this.startFunc()
-                    }
-                    <div className="images">
-                        <a href={this.state.linkRef} target="_blank">
-                            <img className="flag" src={this.state.currentFlag}></img>
-                        </a>
-                        <a href={this.state.linkRef} target="_blank">
-                            <img className="image" ref={(el) => { this.messagesEnd = el; }} src={this.state.currentImage}></img>
-                        </a>
-                    </div>
-                </div >
+                </div>
+                {
+                    this.startFunc()
+                }
+                <div className="images">
+                    <a href={this.state.linkRef} target="_blank">
+                        <img className="flag" src={this.state.currentFlag}></img>
+                    </a>
+                    <a href={this.state.linkRef} target="_blank">
+                        <img className="image" ref={(el) => { this.messagesEnd = el; }} src={this.state.currentImage}></img>
+                    </a>
+                </div>
+            </div >
 
         );
     }

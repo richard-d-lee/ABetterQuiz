@@ -5,7 +5,7 @@ html {
 .midButt {
   display: flex;
   background-color: rgb(47, 93, 161);
-  border: 5px solid rgb(169, 208, 219);
+  border: 5px solid rgb(236, 228, 220);
   color: rgb(205, 229, 236);
   width: fit-content;
   height: fit-content;
@@ -23,7 +23,7 @@ html {
   display: flex;
   justify-content: right;
   background-color: rgb(47, 93, 161);
-  border: 10px solid rgb(134, 199, 219);
+  border: 10px solid rgb(236, 228, 220);
   color: rgb(205, 229, 236);
   width: fit-content;
   height: fit-content;
@@ -43,7 +43,7 @@ html {
 
 .placeholder {
   background-color: rgb(47, 93, 161);
-  border: 5px solid rgb(134, 199, 219);
+  border: 5px solid rgb(236, 228, 220);
   color: rgb(205, 229, 236);
   width: fit-content;
   height: fit-content;
@@ -56,7 +56,7 @@ html {
 
 .accountCreator {
   background-color: rgb(47, 93, 161);
-  border: 5px solid rgb(134, 199, 219);
+  border: 5px solid rgb(236, 228, 220);
   color: blueviolet;
 }
 
@@ -66,7 +66,7 @@ html {
 
 .create-button {
   background-color: rgb(47, 93, 161);
-  border: 5px solid rgb(134, 199, 219);
+  border: 5px solid rgb(236, 228, 220);
   color: rgb(205, 229, 236);
   width: fit-content;
   height: fit-content;
@@ -77,9 +77,16 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#selected-country-list {
+  height: 264px;
+  width: 535px;
+  font-size: xx-large !important;
+  overflow: scroll;
+}
+
 .login-button {
   background-color: rgb(47, 93, 161);
-  border: 5px solid rgb(134, 199, 219);
+  border: 5px solid rgb(236, 228, 220);
   color: rgb(205, 229, 236);
   width: fit-content;
   height: fit-content;
@@ -122,7 +129,7 @@ html {
 .midTextTwo {
   display: flex;
   background-color: rgb(47, 93, 161);
-  border: 5px solid rgb(169, 208, 219);
+  border: 10px solid rgb(236, 228, 220);
   color: rgb(205, 229, 236);
   width: fit-content;
   height: fit-content;
@@ -139,8 +146,7 @@ html {
   padding-left: 30px;
   display: flex;
   justify-content: left;
-  flex-direction: row;
-  padding-bottom: 250px;
+  flex-direction: column;
   font-size: x-large;
   color: rgb(205, 229, 236);
 }
@@ -155,9 +161,24 @@ html {
   color: rgb(205, 229, 236);
 }
 
+.submitCountries {
+  margin-left: 135px;
+  margin-top: 55px;
+  background-color: rgb(47, 93, 161);
+  border: 10px solid rgb(236, 228, 220);
+  color: rgb(255, 255, 255);
+  width: 400px;
+  height: fit-content;
+  border-radius: 5%;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .countryGrid {
   background-color: rgb(47, 93, 161);
-  border: 10px solid rgb(134, 199, 219);
+  border: 10px solid rgb(236, 228, 220);
   color: rgb(205, 229, 236);
   border-radius: 5%;
   padding: 10px;
@@ -177,7 +198,7 @@ html {
 
 #start-text {
   background-color: rgb(47, 93, 161);
-  border: 10px solid rgb(134, 199, 219);
+  border: 10px solid rgb(236, 228, 220);
   color: white;
   border-radius: 5%;
   padding: 33px;
@@ -214,7 +235,6 @@ body {
 }
 
 .clickedMember {
-  cursor: pointer;
   background-color: rgb(197, 197, 197);
   color: black;
   border-radius: 20%;

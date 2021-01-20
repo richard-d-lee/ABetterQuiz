@@ -174,7 +174,10 @@ class App extends React.Component {
         if (this.state.clickedCountries.length > 0) {
             return (
                 <div>
-                    <h1 className="midTextTwo" id="selected-country-list">{this.countryListText()}</h1>
+                    <h1 className="midTextTwo" id="selected-country-list"><center>
+                        {this.countryListText()}
+                        </center>
+                        </h1>
                     <button className="submitCountries" onClick={this.onSubmitCountries}>Submit</button>
                 </div>)
         } else return (
@@ -191,7 +194,6 @@ class App extends React.Component {
             }
         })
     }
-// 'passLengthError'
     registerUser() {
         axios.post('/create', {userName: this.state.registerUser, password: this.state.registerPass, passTwo: this.state.registerPassTwo}).then((data) =>{
             console.log(data);

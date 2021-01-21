@@ -3,15 +3,29 @@ import ListMember from './ListMember.jsx'
 
 function Dashboard(props) {
   return (
-    <div className="dashboard">
-      <center>
-      <h1 className="quiz-header">Your Quizzes</h1>
-      </center>
-      <ul className="quiz-list">
-        {props.countries.map((listCountry) => {
-          return <ListMember country={listCountry} />
-        })}
-      </ul>
+    <div className="full-dash">
+      <div className="dashboard">
+        <center>
+          <h1 className="quiz-header">Your Quizzes</h1>
+        </center>
+        <ul className="quiz-list">
+          {props.countries.map((listCountry) => {
+            return (
+              <ListMember country={listCountry} />
+            )
+          })}
+        </ul>
+      </div>
+      <div className="dash-grid">
+        <div className="art-achieve">
+          <h1 className="feature">achievements</h1>
+          <h1 className="feature">artifacts</h1>
+        </div>
+        <div className="lead-profile">
+          <h1 className="feature">leaderboard</h1>
+          <h1 className="feature">puzzle</h1>
+        </div>
+      </div>
     </div>
   )
 }

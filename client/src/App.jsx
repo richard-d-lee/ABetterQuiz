@@ -7,6 +7,8 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Placeholder from '/components/Placeholder.jsx';
 import Form from 'react-bootstrap/Form'
+import Dashboard from '/components/Dashboard.jsx';
+
 
 class App extends React.Component {
     constructor(props) {
@@ -176,26 +178,28 @@ class App extends React.Component {
                 <div>
                     <h1 className="midTextTwo" id="selected-country-list"><center>
                         {this.countryListText()}
-                        </center>
-                        </h1>
+                    </center>
+                    </h1>
                     <button className="submitCountries" onClick={this.onSubmitCountries}>Submit</button>
                 </div>)
         } else return (
-            <h1 className="midTextTwo" id="start-text">Which of these countries are you interested in?</h1>
+            <center>
+                <h1 className="midTextTwo" id="start-text">Which of these countries and territories are you interested in?</h1>
+            </center>
         )
     }
     loginUser() {
-        axios.post('/login', {userName: this.state.loginUser, password: this.state.loginPass}).then((data) =>{
+        axios.post('/login', { userName: this.state.loginUser, password: this.state.loginPass }).then((data) => {
             console.log(data);
             if (data.data === 'existError') {
                 alert('Login Error! Please make sure the UserName and password match.')
             } else {
-                this.setState({screen: 'logged', logged: true});
+                this.setState({ screen: 'logged', logged: true });
             }
         })
     }
     registerUser() {
-        axios.post('/create', {userName: this.state.registerUser, password: this.state.registerPass, passTwo: this.state.registerPassTwo}).then((data) =>{
+        axios.post('/create', { userName: this.state.registerUser, password: this.state.registerPass, passTwo: this.state.registerPassTwo }).then((data) => {
             console.log(data);
             if (data.data === 'userError') {
                 alert('That UserName already exists! Please try a different one.')
@@ -223,7 +227,7 @@ class App extends React.Component {
                         </div>
                         <div className="description-div">
                             <center>
-                                <h1 className="hello">Quistory is a tool for anoyone who is curious about the world around us. Please use it to foster your desire to know about any country in the world, and hopefully lead yourself down a few rabbit holes of history and world culture. Cheers to your curiosity.<br></br><br></br>-------------------------------------------Richard Lee--------------------------------------------</h1>
+                                <h1 className="hello">Quistory is a tool for anoyone who is curious about the world around us. Please use it to foster your desire to know about any country or territory in the world, and hopefully lead yourself down a few rabbit holes of history and world culture. Cheers to your curiosity.<br></br><br></br>-------------------------------------------Richard Lee--------------------------------------------</h1>
                             </center>
                         </div>
                     </div>
@@ -250,12 +254,12 @@ class App extends React.Component {
                     <div className="form">
                         <Form>
                             <Form.Group controlId="formBasicEmail">
-                                <Form.Label>UserName</Form.Label>
-                                <Form.Control placeholder="UserName" onChange={(e) => {this.setState({loginUser: e.target.value})}}/>
+                                <Form.Label>username</Form.Label>
+                                <Form.Control placeholder="UserName" onChange={(e) => { this.setState({ loginUser: e.target.value }) }} />
                             </Form.Group>
                             <Form.Group controlId="formBasicPassword">
-                                <Form.Label>Password</Form.Label>
-                                <Form.Control type="password" onChange={(e) => {this.setState({loginPass: e.target.value})}} placeholder="Password" />
+                                <Form.Label>password</Form.Label>
+                                <Form.Control type="password" onChange={(e) => { this.setState({ loginPass: e.target.value }) }} placeholder="Password" />
                             </Form.Group>
                             <Form.Group controlId="formBasicCheckbox">
                             </Form.Group>
@@ -266,7 +270,7 @@ class App extends React.Component {
                     </div>
                     <div className="why-register">
                         <center>
-                            <h4 className="log-encourage">Log in to access exclusive rewards such as artifacts, puzzle pieces, achievements, leaderboards, and more!</h4>
+                            <h4 className="log-encourage">Log in to access exclusive features such as artifacts, puzzle pieces, achievements, leaderboards, and more!</h4>
                         </center>
                     </div>
                 </div>
@@ -277,16 +281,16 @@ class App extends React.Component {
                     <div className="form">
                         <Form>
                             <Form.Group controlId="formBasicEmail">
-                                <Form.Label>UserName</Form.Label>
-                                <Form.Control onChange={(e) => {this.setState({registerUser: e.target.value})}} placeholder="UserName" />
+                                <Form.Label>username</Form.Label>
+                                <Form.Control onChange={(e) => { this.setState({ registerUser: e.target.value }) }} placeholder="UserName" />
                             </Form.Group>
                             <Form.Group controlId="formBasicPassword">
-                                <Form.Label>Password</Form.Label>
-                                <Form.Control type="password" onChange={(e) => {this.setState({registerPass: e.target.value})}} placeholder="Password" />
+                                <Form.Label>password</Form.Label>
+                                <Form.Control type="password" onChange={(e) => { this.setState({ registerPass: e.target.value }) }} placeholder="Password" />
                             </Form.Group>
                             <Form.Group controlId="formBasicPassword">
-                                <Form.Label>Re-Enter Password</Form.Label>
-                                <Form.Control type="password" onChange={(e) => {this.setState({registerPassTwo: e.target.value})}} placeholder="Password" />
+                                <Form.Label>re-enter password</Form.Label>
+                                <Form.Control type="password" onChange={(e) => { this.setState({ registerPassTwo: e.target.value }) }} placeholder="Password" />
                             </Form.Group>
                             <Button variant="primary" onClick={this.registerUser}>
                                 Submit
@@ -295,66 +299,68 @@ class App extends React.Component {
                     </div>
                     <div className="why-register">
                         <center>
-                            <h4 className="log-encourage">Log in to access exclusive rewards such as artifacts, puzzle pieces, achievements, leaderboards, and more!</h4>
+                            <h4 className="log-encourage">Log in to access exclusive features such as artifacts, puzzle pieces, achievements, leaderboards, and more!</h4>
                         </center>
                     </div>
                 </div>
             )
         } else if (this.state.screen === "clicked") {
-            return <h1>clicked</h1>
+            return (
+                <Dashboard countries={this.state.clickedCountries} className="dashboard"></Dashboard>
+                )
         } else if (this.state.screen === "logged") {
             return <h1>You are now logged in!</h1>
         }
     }
     componentDidMount() {
-        let ntryList = Object.keys(quiz);
+                        let ntryList = Object.keys(quiz);
         this.setState({
-            countryList: ntryList,
+                        countryList: ntryList,
             currentCountry: ntryList[(Math.floor(Math.random() * 251))],
         }, () => {
-            this.setState({
-                linkRef: `https://www.google.com/search?q=${this.state.currentCountry}`,
-                currentImage: quiz[this.state.currentCountry].image,
-                currentFlag: quiz[this.state.currentCountry].flag
-            })
-        })
+                        this.setState({
+                            linkRef: `https://www.google.com/search?q=${this.state.currentCountry}`,
+                            currentImage: quiz[this.state.currentCountry].image,
+                            currentFlag: quiz[this.state.currentCountry].flag
+                        })
+                    })
     }
 
     render() {
         return (
-            <div className="fullBody">
-                <div className="topBar">
-                    <div className="banner" onClick={() => { window.location.reload(false) }}>
-                        <Placeholder name={'Quistory'} />
-                    </div>
-                    <div className="header" onClick={() => { this.scrollToBottom() }}>
-                        <Placeholder name={'Scroll down to visit ' + this.state.currentCountry + '!'} />
-                    </div>
-                    <div className="login">
-                        <div>
-                            <button className="create-button" onClick={e => {
-                                this.showCreate();
-                            }}> Create an Account </button>
+                    <div className="fullBody">
+                        <div className="topBar">
+                            <div className="banner" onClick={() => { window.location.reload(false) }}>
+                                <Placeholder name={'Quistory'} />
+                            </div>
+                            <div className="header" onClick={() => { this.scrollToBottom() }}>
+                                <Placeholder name={'Scroll down to visit ' + this.state.currentCountry + '!'} />
+                            </div>
+                            <div className="login">
+                                <div>
+                                    <button className="create-button" onClick={e => {
+                                        this.showCreate();
+                                    }}> Create an Account </button>
+                                </div>
+                                <div className="login-div">
+                                    <button className="login-button" onClick={e => {
+                                        this.showLogin();
+                                    }}> Log In </button>
+                                </div>
+                            </div>
                         </div>
-                        <div className="login-div">
-                            <button className="login-button" onClick={e => {
-                                this.showLogin();
-                            }}> Log In </button>
+                        {
+                            this.startFunc()
+                        }
+                        <div className="images">
+                            <a href={this.state.linkRef} target="_blank">
+                                <img className="flag" src={this.state.currentFlag}></img>
+                            </a>
+                            <a href={this.state.linkRef} target="_blank">
+                                <img className="image" ref={(el) => { this.messagesEnd = el; }} src={this.state.currentImage}></img>
+                            </a>
                         </div>
-                    </div>
-                </div>
-                {
-                    this.startFunc()
-                }
-                <div className="images">
-                    <a href={this.state.linkRef} target="_blank">
-                        <img className="flag" src={this.state.currentFlag}></img>
-                    </a>
-                    <a href={this.state.linkRef} target="_blank">
-                        <img className="image" ref={(el) => { this.messagesEnd = el; }} src={this.state.currentImage}></img>
-                    </a>
-                </div>
-            </div >
+                    </div >
 
         );
     }

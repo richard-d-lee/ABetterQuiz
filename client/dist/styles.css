@@ -115,8 +115,42 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.quiz-header {
+  border-bottom: 2px solid rgb(236, 228, 220);
+  padding-bottom: 15px;
+}
+
+.list-member-text {
+  font-size: 18px;
+}
+
+.quiz-list {
+  overflow: scroll;
+}
+
+.list-member {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 700px;
+  margin: 70px 0px 104px 30px;
+  background-color: rgb(47, 93, 161);
+  border: 10px solid rgb(236, 228, 220);
+  color: rgb(255, 255, 255);
+  border-radius: 5%;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #selected-country-list {
-  height: 264px;
+  height: 304px;
   width: 535px;
   font-size: x-large !important;
   overflow: scroll;
@@ -173,7 +207,7 @@ html {
   height: fit-content;
   border-radius: 5%;
   padding: 10px;
-  font-size: 50px;
+  font-size: 45px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   align-content: space-between;
 }

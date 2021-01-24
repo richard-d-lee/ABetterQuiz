@@ -8,6 +8,7 @@ import Container from 'react-bootstrap/Container';
 import Placeholder from '/components/Placeholder.jsx';
 import Form from 'react-bootstrap/Form'
 import Dashboard from '/components/Dashboard.jsx';
+import Quiz from '/components/Quiz.jsx';
 
 
 class App extends React.Component {
@@ -42,6 +43,7 @@ class App extends React.Component {
         this.onSubmitCountries = this.onSubmitCountries.bind(this);
         this.registerUser = this.registerUser.bind(this);
         this.loginUser = this.loginUser.bind(this);
+        this.takeQuiz = this.takeQuiz.bind(this);
 
     }
     countryClick(country) {
@@ -306,10 +308,12 @@ class App extends React.Component {
             )
         } else if (this.state.screen === "clicked") {
             return (
-                <Dashboard countries={this.state.clickedCountries} className="dashboard"></Dashboard>
+                <Dashboard takeQuiz={this.takeQuiz} countries={this.state.clickedCountries} className="dashboard"></Dashboard>
                 )
         } else if (this.state.screen === "logged") {
             return <h1>You are now logged in!</h1>
+        } else if (this.state.screen === "quiz") {
+            return <Quiz country={this.state.currentCountry}/>
         }
     }
     componentDidMount() {
@@ -325,7 +329,12 @@ class App extends React.Component {
                         })
                     })
     }
-
+    takeQuiz(e) {
+        let newCountry = e.nativeEvent.path[2].firstChild.children[1].innerText;
+        this.setState({currentCountry: newCountry, currentFlag: quiz[newCountry].flag, currentImage: quiz[newCountry].image, screen: 'quiz'}, () => {
+            console.log('set');
+        })
+    }
     render() {
         return (
                     <div className="fullBody">

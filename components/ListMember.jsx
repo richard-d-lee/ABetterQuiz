@@ -11,7 +11,7 @@ function ListMember(props) {
       </div>
       <div className="list-member">
         <h5 className="list-score">0/10</h5>
-        <button className="quiz-button">Take the quiz!</button>
+        <button className="quiz-button" onClick={props.takeQuiz}>Take the quiz!</button>
       </div>
     </div>
   )

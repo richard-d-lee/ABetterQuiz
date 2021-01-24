@@ -11,7 +11,7 @@ function Dashboard(props) {
         <ul className="quiz-list">
           {props.countries.map((listCountry) => {
             return (
-              <ListMember country={listCountry} />
+              <ListMember takeQuiz={props.takeQuiz} country={listCountry} />
             )
           })}
         </ul>

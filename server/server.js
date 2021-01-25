@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/users', { useNewUrlParser: true, useUnifiedTopology: true });
-const User = mongoose.model('User', { name: String, password: String, score: Number });
+const User = mongoose.model('User', { name: String, password: String, score: Number, clicked: Array });
 
 var getIndexBelowMaxForKey = function(str, max) {
   var hash = 0;
@@ -19,14 +19,31 @@ app.use(express.static('../client/dist')); // Host your dist folder up to the se
 app.use(express.json()); // Alternative to BodyParser
 
 // If you had to handle requests on the server side, this is where that would occur
+app.post('/clicked', (req, res) => {
+	User.findOneAndUpdate({
+		name: req.body.userName,
+	}, {
+		clicked: req.body.clicked
+	})
+		.then((data) => {
+			if(data !== null) {
+				console.log('updated')
+				res.send('updated')
+			} else {
+				res.send('error')
+			}
+		})
+})
+
 app.post('/login', (req, res) => {
 	User.findOne({
 		name: req.body.userName,
 		password: getIndexBelowMaxForKey(req.body.password, 5000000),
 	})
 		.then((data) => {
+			console.log(data.clicked)
 			if(data !== null) {
-				res.send('logged')
+				res.send(data.clicked)
 			} else {
 				res.send('existError')
 			}
@@ -34,6 +51,7 @@ app.post('/login', (req, res) => {
 });
 
 app.post('/create', (req, res) => {
+	console.log(req.body);
 	if (req.body.password !== req.body.passTwo) {
 		res.send('passMatchError')
 	} else if (req.body.password.length < 8) {
@@ -47,7 +65,8 @@ app.post('/create', (req, res) => {
 				User.create({
 					name: req.body.userName,
 					password: getIndexBelowMaxForKey(req.body.password, 5000000),
-					score: 0
+					score: 0,
+					clicked: req.body.clicked
 				})
 				.then(() => {
 					console.log('created');

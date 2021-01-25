@@ -1,14 +1,14 @@
 import React from 'react';
 import axios from 'axios';
 import Card from 'react-bootstrap/Card';
-import quiz from '/components/quiz.js';
+import quiz from '/client/components/quiz.js';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Placeholder from '/components/Placeholder.jsx';
+import Placeholder from '/client/components/Placeholder.jsx';
 import Form from 'react-bootstrap/Form'
-import Dashboard from '/components/Dashboard.jsx';
-import Quiz from '/components/Quiz.jsx';
+import Dashboard from '/client/components/Dashboard.jsx';
+import Quiz from '/client/components/Quiz.jsx';
 
 
 class App extends React.Component {
@@ -44,6 +44,10 @@ class App extends React.Component {
         this.registerUser = this.registerUser.bind(this);
         this.loginUser = this.loginUser.bind(this);
         this.takeQuiz = this.takeQuiz.bind(this);
+        this.returnToDash = this.returnToDash.bind(this);
+        this.deleteListMember = this.deleteListMember.bind(this);
+        this.returnToGrid = this.returnToGrid.bind(this);
+        this.renderLogin = this.renderLogin.bind(this);
 
     }
     countryClick(country) {
@@ -53,6 +57,7 @@ class App extends React.Component {
             currentFlag: quiz[country].flag
         })
     }
+
     showCreate(e) {
         this.setState({
             screen: 'create'
@@ -172,7 +177,14 @@ class App extends React.Component {
         return finalStr;
     }
     onSubmitCountries() {
-        this.setState({ screen: "clicked" })
+        if (this.state.logged === true) {
+            axios.post('/clicked', {userName: this.state.loginUser, clicked: this.state.clickedCountries})
+            .then((data) => {
+                this.setState({ screen: "clicked" })
+            })
+        } else {
+            this.setState({ screen: "clicked" })
+        }
     }
     submitCountries() {
         if (this.state.clickedCountries.length > 0) {
@@ -192,16 +204,15 @@ class App extends React.Component {
     }
     loginUser() {
         axios.post('/login', { userName: this.state.loginUser, password: this.state.loginPass }).then((data) => {
-            console.log(data);
             if (data.data === 'existError') {
                 alert('Login Error! Please make sure the UserName and password match.')
             } else {
-                this.setState({ screen: 'logged', logged: true });
+                this.setState({ screen: 'clicked', logged: true, clickedCountries: data.data});
             }
         })
     }
     registerUser() {
-        axios.post('/create', { userName: this.state.registerUser, password: this.state.registerPass, passTwo: this.state.registerPassTwo }).then((data) => {
+        axios.post('/create', { userName: this.state.registerUser, password: this.state.registerPass, passTwo: this.state.registerPassTwo, clicked: this.state.clickedCountries }).then((data) => {
             console.log(data);
             if (data.data === 'userError') {
                 alert('That UserName already exists! Please try a different one.')
@@ -215,6 +226,50 @@ class App extends React.Component {
             }
             if (data.data === 'passLengthError') {
                 alert('Registration Error! Your password must be at least eight characters long.');
+            }
+        })
+    }
+    returnToDash() {
+        this.setState({ screen: 'clicked' })
+    }
+    returnToGrid() {
+        this.setState({ screen: 'grid' })
+    }
+    renderLogin() {
+        if (this.state.logged === false) {
+            return (
+                <div className="login">
+                    <div>
+                        <button className="create-button" onClick={e => {
+                            this.showCreate();
+                        }}> Create an Account </button>
+                    </div>
+                    <div className="login-div">
+                        <button className="login-button" onClick={e => {
+                            this.showLogin();
+                        }}> Log In </button>
+                    </div>
+                </div>
+            )
+        } else {
+            return (
+                <div className="login">
+                    <div>
+                        <h1>
+                            Logged in as {this.state.loginUser}
+                        </h1>
+                    </div>
+                </div>
+            )
+        }
+    }
+    deleteListMember(country) {
+        let newIndex = this.state.clickedCountries.indexOf(country);
+        let newArr = this.state.clickedCountries;
+        newArr.splice(newIndex, 1)
+        this.setState({ clickedCountries: newArr }, () => {
+            if (this.state.logged === true) {
+                axios.post('/clicked', {userName: this.state.loginUser, clicked: this.state.clickedCountries})
             }
         })
     }
@@ -308,68 +363,57 @@ class App extends React.Component {
             )
         } else if (this.state.screen === "clicked") {
             return (
-                <Dashboard takeQuiz={this.takeQuiz} countries={this.state.clickedCountries} className="dashboard"></Dashboard>
-                )
+                <Dashboard grid={this.returnToGrid} delete={this.deleteListMember} takeQuiz={this.takeQuiz} countries={this.state.clickedCountries} className="dashboard"></Dashboard>
+            )
         } else if (this.state.screen === "logged") {
             return <h1>You are now logged in!</h1>
         } else if (this.state.screen === "quiz") {
-            return <Quiz country={this.state.currentCountry}/>
+            return <Quiz return={this.returnToDash} country={this.state.currentCountry} />
         }
     }
     componentDidMount() {
-                        let ntryList = Object.keys(quiz);
+        let ntryList = Object.keys(quiz);
         this.setState({
-                        countryList: ntryList,
+            countryList: ntryList,
             currentCountry: ntryList[(Math.floor(Math.random() * 251))],
         }, () => {
-                        this.setState({
-                            linkRef: `https://www.google.com/search?q=${this.state.currentCountry}`,
-                            currentImage: quiz[this.state.currentCountry].image,
-                            currentFlag: quiz[this.state.currentCountry].flag
-                        })
-                    })
+            this.setState({
+                linkRef: `https://www.google.com/search?q=${this.state.currentCountry}`,
+                currentImage: quiz[this.state.currentCountry].image,
+                currentFlag: quiz[this.state.currentCountry].flag
+            })
+        })
     }
     takeQuiz(e) {
         let newCountry = e.nativeEvent.path[2].firstChild.children[1].innerText;
-        this.setState({currentCountry: newCountry, currentFlag: quiz[newCountry].flag, currentImage: quiz[newCountry].image, screen: 'quiz'}, () => {
+        this.setState({ currentCountry: newCountry, currentFlag: quiz[newCountry].flag, currentImage: quiz[newCountry].image, screen: 'quiz' }, () => {
             console.log('set');
         })
     }
     render() {
         return (
-                    <div className="fullBody">
-                        <div className="topBar">
-                            <div className="banner" onClick={() => { window.location.reload(false) }}>
-                                <Placeholder name={'Quistory'} />
-                            </div>
-                            <div className="header" onClick={() => { this.scrollToBottom() }}>
-                                <Placeholder name={'Scroll down to visit ' + this.state.currentCountry + '!'} />
-                            </div>
-                            <div className="login">
-                                <div>
-                                    <button className="create-button" onClick={e => {
-                                        this.showCreate();
-                                    }}> Create an Account </button>
-                                </div>
-                                <div className="login-div">
-                                    <button className="login-button" onClick={e => {
-                                        this.showLogin();
-                                    }}> Log In </button>
-                                </div>
-                            </div>
-                        </div>
-                        {
-                            this.startFunc()
-                        }
-                        <div className="images">
-                            <a href={this.state.linkRef} target="_blank">
-                                <img className="flag" src={this.state.currentFlag}></img>
-                            </a>
-                            <a href={this.state.linkRef} target="_blank">
-                                <img className="image" ref={(el) => { this.messagesEnd = el; }} src={this.state.currentImage}></img>
-                            </a>
-                        </div>
-                    </div >
+            <div className="fullBody">
+                <div className="topBar">
+                    <div className="banner" onClick={() => { window.location.reload(false) }}>
+                        <Placeholder name={'Quistory'} />
+                    </div>
+                    <div className="header" onClick={() => { this.scrollToBottom() }}>
+                        <Placeholder name={'Scroll down to visit ' + this.state.currentCountry + '!'} />
+                    </div>
+                    {this.renderLogin()}
+                </div>
+                {
+                    this.startFunc()
+                }
+                <div className="images">
+                    <a href={this.state.linkRef} target="_blank">
+                        <img className="flag" src={this.state.currentFlag}></img>
+                    </a>
+                    <a href={this.state.linkRef} target="_blank">
+                        <img className="image" ref={(el) => { this.messagesEnd = el; }} src={this.state.currentImage}></img>
+                    </a>
+                </div>
+            </div >
 
         );
     }

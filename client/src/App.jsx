@@ -28,6 +28,7 @@ class App extends React.Component {
             loginUser: '',
             loginPass: '',
             logged: false,
+            tracker: 0,
         }
         this.startClick = this.startClick.bind(this);
         this.startFunc = this.startFunc.bind(this);
@@ -48,6 +49,7 @@ class App extends React.Component {
         this.deleteListMember = this.deleteListMember.bind(this);
         this.returnToGrid = this.returnToGrid.bind(this);
         this.renderLogin = this.renderLogin.bind(this);
+        this.nextQuestion = this.nextQuestion.bind(this);
 
     }
     countryClick(country) {
@@ -184,6 +186,15 @@ class App extends React.Component {
             })
         } else {
             this.setState({ screen: "clicked" })
+        }
+    }
+    nextQuestion() {
+        let oldTracker = this.state.tracker;
+        oldTracker++;
+        if (oldTracker < 10) {
+            this.setState({tracker: oldTracker})
+        }   else {
+            this.setState({screen: 'score'})
         }
     }
     submitCountries() {
@@ -368,7 +379,7 @@ class App extends React.Component {
         } else if (this.state.screen === "logged") {
             return <h1>You are now logged in!</h1>
         } else if (this.state.screen === "quiz") {
-            return <Quiz return={this.returnToDash} country={this.state.currentCountry} />
+            return <Quiz return={this.returnToDash} tracker={this.state.tracker} next={this.nextQuestion} country={this.state.currentCountry} quiz={quiz[this.state.currentCountry]}/>
         }
     }
     componentDidMount() {

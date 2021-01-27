@@ -191,6 +191,15 @@ html {
   justify-content: center;
 }
 
+.question {
+  background-color: white;
+  color: rgb(12, 63, 78);
+  padding: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .full-dash {
   display: flex;
   flex-direction: row;
@@ -292,7 +301,11 @@ html {
 }
 
 .topBar {
-  padding-top: 20px;
+  background-color: white;
+  padding-top: 15px;
+  border-bottom: 1px solid green;
+  background-image: -moz-linear-gradient(red);
+  padding-bottom: 5px;
   display: flex;
   justify-content: space-between;
 }

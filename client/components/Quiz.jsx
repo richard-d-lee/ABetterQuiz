@@ -24,7 +24,7 @@ function Quiz(props) {
             {questions[props.tracker]}
           </center>
         </h4>
-        <h4>hello</h4>
+        <h4>quiztime</h4>
       </div>
       <div className="all-features">
         <div className="art-achieve">

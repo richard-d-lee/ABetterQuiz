@@ -4,6 +4,9 @@ function Quiz(props) {
   console.log('tracker, ', props.tracker)
   let questions = props.quiz.questions;
   let answers = props.quiz.answers;
+  if (questions[props.tracker] === undefined) {
+    return <div><h1>This quiz has not been built yet!</h1></div>
+  }
   let answerRandomizer = (array) => {
     let newArr = array.slice();
     let size = 4;
@@ -16,15 +19,32 @@ function Quiz(props) {
     }
     return finalArr;
   }
-  return (
+  let questionMaker = (tracker) => {
+    if (questions[props.tracker].length > 60) {
+      return <h4>{questions[props.tracker]}</h4>
+    } else {
+      return <h3>{questions[props.tracker]}</h3>
+    }
+  }
+  if (props.tracker === 9) {
+    return <div><h1>hello</h1></div>
+  } else return (
     <div className="quizPage">
       <div className="quiz">
         <h4 className="question">
           <center>
-            {questions[props.tracker]}
+            {questionMaker()}
           </center>
         </h4>
-        <h4>quiztime</h4>
+        <center>
+          <div className="all-answers">
+            {answerRandomizer(answers[props.tracker]).map((answer) => {
+              if (answer.length > 40) {
+                return (<h4 className="answers"><center>{answer}</center></h4>)
+              } else return (<h3 className="answers"><center>{answer}</center></h3>)
+            })}
+          </div>
+        </center>
       </div>
       <div className="all-features">
         <div className="art-achieve">

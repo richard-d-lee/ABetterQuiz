@@ -29,6 +29,8 @@ class App extends React.Component {
             loginPass: '',
             logged: false,
             tracker: 0,
+            score: 0,
+            answerList: [],
         }
         this.startClick = this.startClick.bind(this);
         this.startFunc = this.startFunc.bind(this);
@@ -191,10 +193,8 @@ class App extends React.Component {
     nextQuestion() {
         let oldTracker = this.state.tracker;
         oldTracker++;
-        if (oldTracker < 10) {
+        if (oldTracker <= 10) {
             this.setState({tracker: oldTracker})
-        }   else {
-            this.setState({screen: 'score'})
         }
     }
     submitCountries() {

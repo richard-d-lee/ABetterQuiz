@@ -17,6 +17,17 @@ html {
   align-content: space-between;
 }
 
+.all-answers {
+  padding-top: 30px;
+}
+
+.answers {
+  padding: 15px 15px 15px 15px;
+  background-color: white;
+  margin: 15px 15px 15px 15px;
+  width: fit-content;
+}
+
 .hello {
   overflow: hidden;
   padding-left: 60px;

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+//make it stateful?
+
 function Quiz(props) {
   console.log('tracker, ', props.tracker)
   let questions = props.quiz.questions;

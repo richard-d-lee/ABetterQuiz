@@ -52,7 +52,7 @@ class App extends React.Component {
         this.returnToGrid = this.returnToGrid.bind(this);
         this.renderLogin = this.renderLogin.bind(this);
         this.nextQuestion = this.nextQuestion.bind(this);
-
+        this.answerClicker = this.answerClicker.bind(this);
     }
     countryClick(country) {
         this.setState({
@@ -61,7 +61,18 @@ class App extends React.Component {
             currentFlag: quiz[country].flag
         })
     }
-
+    answerClicker(e) {
+        let clicked = e.target.innerText;
+        let tracker = this.state.tracker;
+        let score = this.state.score;
+        tracker++;
+        if (clicked === quiz[this.state.currentCountry].answers[this.state.tracker][0]) {
+            score++
+            this.setState({tracker: tracker, score: score})
+        } else {
+            this.setState({tracker: tracker})
+        }
+    }
     showCreate(e) {
         this.setState({
             screen: 'create'
@@ -379,7 +390,7 @@ class App extends React.Component {
         } else if (this.state.screen === "logged") {
             return <h1>You are now logged in!</h1>
         } else if (this.state.screen === "quiz") {
-            return <Quiz return={this.returnToDash} tracker={this.state.tracker} next={this.nextQuestion} country={this.state.currentCountry} quiz={quiz[this.state.currentCountry]}/>
+            return <Quiz ansCli={this.answerClicker} score={this.state.score} return={this.returnToDash} tracker={this.state.tracker} next={this.nextQuestion} country={this.state.currentCountry} quiz={quiz[this.state.currentCountry]}/>
         }
     }
     componentDidMount() {

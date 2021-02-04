@@ -6,7 +6,7 @@ function Quiz(props) {
   console.log('tracker, ', props.tracker)
   let questions = props.quiz.questions;
   let answers = props.quiz.answers;
-  if (questions[props.tracker] === undefined) {
+  if (questions[props.tracker] === undefined && props.tracker !== 10) {
     return <div><h1>This quiz has not been built yet!</h1></div>
   }
   let answerRandomizer = (array) => {
@@ -28,8 +28,8 @@ function Quiz(props) {
       return <h3>{questions[props.tracker]}</h3>
     }
   }
-  if (props.tracker === 9) {
-    return <div><h1>hello</h1></div>
+  if (props.tracker === 10) {
+    return <div><h1>{props.score} out of 10!</h1></div>
   } else return (
     <div className="quizPage">
       <div className="quiz">
@@ -42,8 +42,10 @@ function Quiz(props) {
           <div className="all-answers">
             {answerRandomizer(answers[props.tracker]).map((answer) => {
               if (answer.length > 40) {
-                return (<h4 className="answers"><center>{answer}</center></h4>)
-              } else return (<h3 className="answers"><center>{answer}</center></h3>)
+                return (<h4 className="answers" onClick={props.ansCli}><center>{answer}</center></h4>)
+              } else {
+                return (<h3 className="answers" onClick={props.ansCli}><center>{answer}</center></h3>)
+              }
             })}
           </div>
         </center>

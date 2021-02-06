@@ -9,7 +9,6 @@ html {
   color: rgb(205, 229, 236);
   width: fit-content;
   height: fit-content;
-  border-radius: 5%;
   padding: 10px;
   cursor: pointer;
   font-size: 50px;
@@ -17,16 +16,20 @@ html {
   align-content: space-between;
 }
 
+.full-quiz-div {
+  display: flex;
+  justify-content: center;
+}
+
 .score {
   display: flex;
   justify-content: center;
-  height: 267px;
+  height: 350px;
   width: 600px;
-  margin: 140px 0px 104px 170px;
+  margin: 100px;
   background-color: rgb(47, 93, 161);
   border: 10px solid green;
   color: rgb(205, 229, 236);
-  border-radius: 5%;
   padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -52,7 +55,6 @@ html {
   color: rgb(205, 229, 236);
   width: fit-content;
   height: fit-content;
-  border-radius: 5%;
   padding: 10px;
   font-size: 18px;
   height: 170px;
@@ -72,7 +74,6 @@ html {
   color: rgb(205, 229, 236);
   width: fit-content;
   height: fit-content;
-  border-radius: 5%;
   padding: 15px;
   cursor: pointer;
   font-size: large;
@@ -95,7 +96,6 @@ html {
   color: rgb(205, 229, 236);
   width: fit-content;
   height: fit-content;
-  border-radius: 5%;
   padding: 10px;
   cursor: pointer;
   font-size: large;
@@ -121,7 +121,6 @@ html {
   background-color: rgb(47, 93, 161);
   border: 10px solid green;
   color: rgb(205, 229, 236);
-  border-radius: 5%;
   padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -133,7 +132,6 @@ html {
   color: rgb(205, 229, 236);
   width: fit-content;
   height: fit-content;
-  border-radius: 5%;
   padding: 10px;
   cursor: pointer;
   font-size: large;
@@ -277,7 +275,6 @@ html {
   background-color: rgb(47, 93, 161);
   border: 10px solid green;
   color: rgb(255, 255, 255);
-  border-radius: 5%;
   padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -295,7 +292,6 @@ html {
   color: rgb(205, 229, 236);
   width: fit-content;
   height: fit-content;
-  border-radius: 5%;
   padding: 10px;
   cursor: pointer;
   font-size: large;
@@ -326,6 +322,7 @@ html {
 }
 
 .topBar {
+  border-top: 1px solid green;
   background-color: white;
   padding-top: 15px;
   border-bottom: 1px solid green;
@@ -342,7 +339,6 @@ html {
   color: rgb(205, 229, 236);
   width: fit-content;
   height: fit-content;
-  border-radius: 5%;
   padding: 10px;
   font-size: 45px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -379,7 +375,6 @@ html {
   color: rgb(255, 255, 255);
   width: 400px;
   height: fit-content;
-  border-radius: 5%;
   padding: 15px;
   cursor: pointer;
   font-size: 40px;
@@ -390,7 +385,6 @@ html {
   background-color: rgb(47, 93, 161);
   border: 10px solid green;
   color: rgb(205, 229, 236);
-  border-radius: 5%;
   padding: 10px;
   font-size: small;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -422,7 +416,6 @@ html {
   height: 500px;
   width: 700px;
   border: 10px solid green;
-  border-radius: 5%;
   background-color: rgb(47, 93, 161);
 }
 
@@ -430,7 +423,6 @@ html {
   background-color: rgb(47, 93, 161);
   border: 10px solid green;
   color: white;
-  border-radius: 5%;
   padding: 33px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

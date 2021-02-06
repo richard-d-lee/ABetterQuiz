@@ -17,6 +17,20 @@ html {
   align-content: space-between;
 }
 
+.score {
+  display: flex;
+  justify-content: center;
+  height: 267px;
+  width: 600px;
+  margin: 140px 0px 104px 170px;
+  background-color: rgb(47, 93, 161);
+  border: 10px solid green;
+  color: rgb(205, 229, 236);
+  border-radius: 5%;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .all-answers {
   padding-top: 30px;
 }

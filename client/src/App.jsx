@@ -229,7 +229,7 @@ class App extends React.Component {
             if (data.data === 'existError') {
                 alert('Login Error! Please make sure the UserName and password match.')
             } else {
-                this.setState({ screen: 'clicked', logged: true, clickedCountries: data.data});
+                this.setState({ screen: 'clicked', logged: true, clickedCountries: data.data.clicked || ['none']});
             }
         })
     }

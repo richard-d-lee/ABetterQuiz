@@ -41,9 +41,8 @@ app.post('/login', (req, res) => {
 		password: getIndexBelowMaxForKey(req.body.password, 5000000),
 	})
 		.then((data) => {
-			console.log(data.clicked)
 			if(data !== null) {
-				res.send(data.clicked)
+				res.send(data)
 			} else {
 				res.send('existError')
 			}
@@ -61,12 +60,22 @@ app.post('/create', (req, res) => {
 		.then((data) => {
 			if (data !== null) {
 				res.send('userError')
+			} else if (req.body.clicked !== null) {
+				User.create({
+					name: req.body.userName,
+					password: getIndexBelowMaxForKey(req.body.password, 5000000),
+					score: 0,
+					clicked: req.body.clicked || ['none']
+				})
+				.then(() => {
+					console.log('created');
+					res.send('created')
+				})
 			} else {
 				User.create({
 					name: req.body.userName,
 					password: getIndexBelowMaxForKey(req.body.password, 5000000),
 					score: 0,
-					clicked: req.body.clicked
 				})
 				.then(() => {
 					console.log('created');

@@ -182,11 +182,12 @@ class App extends React.Component {
     }
     countryListText() {
         let finalStr = '';
-        for (let i = 0; i < this.state.clickedCountries.length; i++) {
-            if (i === this.state.clickedCountries.length - 1) {
-                finalStr += this.state.clickedCountries[i]
+        let countries = this.state.clickedCountries.sort()
+        for (let i = 0; i < countries.length; i++) {
+            if (i === countries.length - 1) {
+                finalStr += countries[i]
             } else {
-                finalStr += this.state.clickedCountries[i] + ', '
+                finalStr += countries[i] + ', '
             }
         }
         return finalStr;
@@ -385,7 +386,7 @@ class App extends React.Component {
             )
         } else if (this.state.screen === "clicked") {
             return (
-                <Dashboard grid={this.returnToGrid} delete={this.deleteListMember} takeQuiz={this.takeQuiz} countries={this.state.clickedCountries} className="dashboard"></Dashboard>
+                <Dashboard grid={this.returnToGrid} delete={this.deleteListMember} takeQuiz={this.takeQuiz} countries={this.state.clickedCountries.sort()} className="dashboard"></Dashboard>
             )
         } else if (this.state.screen === "logged") {
             return <h1>You are now logged in!</h1>

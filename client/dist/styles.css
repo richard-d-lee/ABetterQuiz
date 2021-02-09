@@ -307,6 +307,15 @@ html {
   padding-top: 30px;
 }
 
+.personal-banner {
+  background-color: rgb(47, 93, 161);
+  border: 5px solid green;
+  color: rgb(205, 229, 236);
+  cursor: pointer;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .login {
   display: flex;
   flex-direction: row;

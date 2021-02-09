@@ -277,7 +277,7 @@ class App extends React.Component {
         } else {
             return (
                 <div className="login">
-                    <div>
+                    <div className="personal-banner">
                         <h1>
                             Logged in as {this.state.loginUser}
                         </h1>

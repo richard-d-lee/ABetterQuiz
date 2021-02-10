@@ -278,9 +278,9 @@ class App extends React.Component {
             return (
                 <div className="login">
                     <div className="personal-banner">
-                        <h1>
+                        <label className="pers-text">
                             Logged in as {this.state.loginUser}
-                        </h1>
+                        </label>
                     </div>
                 </div>
             )

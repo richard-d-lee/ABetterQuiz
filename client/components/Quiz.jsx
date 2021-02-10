@@ -31,7 +31,7 @@ function Quiz(props) {
   if (props.tracker === 10) {
     if (props.score < 3) {
       return <div className="score"><h1><center>Oh no! You only scored {props.score} out of 10!</center></h1></div>
-    } else if (props.score > 7) {
+    } else if (props.score > 7 && props.score < 10) {
       return <div className="score"><h1><center>Great job! You scored {props.score} out of 10!</center></h1></div>
     } else if (props.score === 10) {
       return <div className="score"><h1><center>Perfect! You scored {props.score} out of 10!</center></h1></div>

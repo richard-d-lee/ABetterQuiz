@@ -302,12 +302,21 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.pers-text {
+  height: fit-content;
+  width: fit-content;
+}
+
 .countryDrop {
   padding-left: 30px;
   padding-top: 30px;
 }
 
 .personal-banner {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 10px 10px 0px 10px;
   background-color: rgb(47, 93, 161);
   border: 5px solid green;
   color: rgb(205, 229, 236);

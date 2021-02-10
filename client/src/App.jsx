@@ -68,9 +68,9 @@ class App extends React.Component {
         tracker++;
         if (clicked === quiz[this.state.currentCountry].answers[this.state.tracker][0]) {
             score++
-            this.setState({tracker: tracker, score: score})
+            this.setState({ tracker: tracker, score: score })
         } else {
-            this.setState({tracker: tracker})
+            this.setState({ tracker: tracker })
         }
     }
     showCreate(e) {
@@ -194,10 +194,10 @@ class App extends React.Component {
     }
     onSubmitCountries() {
         if (this.state.logged === true) {
-            axios.post('/clicked', {userName: this.state.loginUser, clicked: this.state.clickedCountries})
-            .then((data) => {
-                this.setState({ screen: "clicked" })
-            })
+            axios.post('/clicked', { userName: this.state.loginUser, clicked: this.state.clickedCountries })
+                .then((data) => {
+                    this.setState({ screen: "clicked" })
+                })
         } else {
             this.setState({ screen: "clicked" })
         }
@@ -206,7 +206,7 @@ class App extends React.Component {
         let oldTracker = this.state.tracker;
         oldTracker++;
         if (oldTracker <= 10) {
-            this.setState({tracker: oldTracker})
+            this.setState({ tracker: oldTracker })
         }
     }
     submitCountries() {
@@ -230,7 +230,7 @@ class App extends React.Component {
             if (data.data === 'existError') {
                 alert('Login Error! Please make sure the UserName and password match.')
             } else {
-                this.setState({ screen: 'clicked', logged: true, clickedCountries: data.data.clicked || ['none']});
+                this.setState({ screen: 'clicked', logged: true, clickedCountries: data.data.clicked || ['none'] });
             }
         })
     }
@@ -292,7 +292,7 @@ class App extends React.Component {
         newArr.splice(newIndex, 1)
         this.setState({ clickedCountries: newArr }, () => {
             if (this.state.logged === true) {
-                axios.post('/clicked', {userName: this.state.loginUser, clicked: this.state.clickedCountries})
+                axios.post('/clicked', { userName: this.state.loginUser, clicked: this.state.clickedCountries })
             }
         })
     }
@@ -393,7 +393,7 @@ class App extends React.Component {
         } else if (this.state.screen === "quiz") {
             return (
                 <div className="full-quiz-div">
-                    <Quiz ansCli={this.answerClicker} score={this.state.score} return={this.returnToDash} tracker={this.state.tracker} next={this.nextQuestion} country={this.state.currentCountry} quiz={quiz[this.state.currentCountry]}/>
+                    <Quiz ansCli={this.answerClicker} score={this.state.score} return={this.returnToDash} tracker={this.state.tracker} next={this.nextQuestion} country={this.state.currentCountry} quiz={quiz[this.state.currentCountry]} />
                 </div>
             )
         }
@@ -413,9 +413,20 @@ class App extends React.Component {
     }
     takeQuiz(e) {
         let newCountry = e.nativeEvent.path[2].firstChild.children[1].innerText;
-        this.setState({ currentCountry: newCountry, currentFlag: quiz[newCountry].flag, currentImage: quiz[newCountry].image, screen: 'quiz' }, () => {
-            console.log('set');
-        })
+        this.setState({
+            currentCountry: newCountry,
+            currentFlag: quiz[newCountry].flag,
+            currentImage: quiz[newCountry].image,
+            screen: 'quiz'
+        }, () => {
+            console.log('helllooooooo')
+            this.setState({
+                linkRef: `https://www.google.com/search?q=${this.state.currentCountry}`,
+            }, () => {
+                console.log('hello')
+            });
+        }
+        )
     }
     render() {
         return (

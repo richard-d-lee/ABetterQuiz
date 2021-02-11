@@ -10,8 +10,9 @@ function Dashboard(props) {
         </center>
         <ul className="quiz-list">
           {props.countries.map((listCountry) => {
+            let index = props.countries.indexOf(listCountry);
             return (
-              <ListMember delete={props.delete} takeQuiz={props.takeQuiz} country={listCountry} />
+              <ListMember score={props.scoreList[index]} delete={props.delete} takeQuiz={props.takeQuiz} country={listCountry} />
             )
           })}
         </ul>

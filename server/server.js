@@ -58,7 +58,7 @@ app.put('/score', (req, res) => {
 			})
 				.then((data) => {
 					if (data !== null) {
-						res.send('updated')
+						res.send(data)
 					} else {
 						res.send('error')
 					}

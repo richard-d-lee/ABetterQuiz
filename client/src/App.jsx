@@ -31,6 +31,7 @@ class App extends React.Component {
             tracker: 0,
             score: 0,
             answerList: [],
+            scoreList: {},
         }
         this.startClick = this.startClick.bind(this);
         this.startFunc = this.startFunc.bind(this);
@@ -79,8 +80,9 @@ class App extends React.Component {
             userName: this.state.loginUser,
             score: this.state.score,
             countryIndex: this.state.countryList.indexOf(this.state.currentCountry)
-        }, (data) => {
-            console.log(data);
+        })
+        .then((data) => {
+            this.setState({scoreList: data.data.scoreList}, () => {console.log('state: ', this.state)})
         })
     }
     showCreate(e) {
@@ -240,7 +242,7 @@ class App extends React.Component {
             if (data.data === 'existError') {
                 alert('Login Error! Please make sure the UserName and password match.')
             } else {
-                this.setState({ screen: 'clicked', logged: true, clickedCountries: data.data.clicked || ['none'] });
+                this.setState({ screen: 'clicked', logged: true, clickedCountries: data.data.clicked, scoreList: data.data.scoreList || {0: 0} });
             }
         })
     }
@@ -396,7 +398,7 @@ class App extends React.Component {
             )
         } else if (this.state.screen === "clicked") {
             return (
-                <Dashboard grid={this.returnToGrid} delete={this.deleteListMember} takeQuiz={this.takeQuiz} countries={this.state.clickedCountries.sort()} className="dashboard"></Dashboard>
+                <Dashboard scoreList={this.state.scoreList} grid={this.returnToGrid} delete={this.deleteListMember} takeQuiz={this.takeQuiz} countries={this.state.clickedCountries.sort()} className="dashboard"></Dashboard>
             )
         } else if (this.state.screen === "logged") {
             return <h1>You are now logged in!</h1>

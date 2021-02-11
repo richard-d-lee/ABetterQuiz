@@ -10,7 +10,7 @@ function ListMember(props) {
         <li className='list-member-text'>{props.country}</li>
       </div>
       <div className="list-member">
-        <h5 className="list-score">0/10</h5>
+        <h5 className="list-score">{props.score || 0}/10</h5>
         <button className="quiz-button" onClick={props.takeQuiz}>Take the quiz!</button>
       </div>
     </div>

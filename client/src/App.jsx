@@ -53,6 +53,7 @@ class App extends React.Component {
         this.renderLogin = this.renderLogin.bind(this);
         this.nextQuestion = this.nextQuestion.bind(this);
         this.answerClicker = this.answerClicker.bind(this);
+        this.scorePush = this.scorePush.bind(this);
     }
     countryClick(country) {
         this.setState({
@@ -72,6 +73,15 @@ class App extends React.Component {
         } else {
             this.setState({ tracker: tracker })
         }
+    }
+    scorePush() {
+        axios.put('/score', {
+            userName: this.state.loginUser,
+            score: this.state.score,
+            countryIndex: this.state.countryList.indexOf(this.state.currentCountry)
+        }, (data) => {
+            console.log(data);
+        })
     }
     showCreate(e) {
         this.setState({
@@ -253,7 +263,7 @@ class App extends React.Component {
         })
     }
     returnToDash() {
-        this.setState({ screen: 'clicked' })
+        this.setState({ screen: 'clicked', score: 0, tracker: 0 })
     }
     returnToGrid() {
         this.setState({ screen: 'grid' })
@@ -393,7 +403,16 @@ class App extends React.Component {
         } else if (this.state.screen === "quiz") {
             return (
                 <div className="full-quiz-div">
-                    <Quiz ansCli={this.answerClicker} score={this.state.score} return={this.returnToDash} tracker={this.state.tracker} next={this.nextQuestion} country={this.state.currentCountry} quiz={quiz[this.state.currentCountry]} />
+                    <Quiz ansCli={this.answerClicker}
+                    score={this.state.score}
+                    return={this.returnToDash}
+                    tracker={this.state.tracker}
+                    next={this.nextQuestion}
+                    country={this.state.currentCountry}
+                    quiz={quiz[this.state.currentCountry]}
+                    scorePush={this.scorePush}
+                    logged={this.state.logged}
+                    reset={this.scoreReset}/>
                 </div>
             )
         }

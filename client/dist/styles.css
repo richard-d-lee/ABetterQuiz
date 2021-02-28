@@ -40,12 +40,15 @@ html {
 }
 
 .answers:hover{
+  border: 1px solid white;
   color: white;
   background-color: rgb(47, 93, 161);
   cursor: pointer;
 }
 
 .answers {
+  border: 1px solid white;
+  border-radius: 1%;
   padding: 15px 15px 15px 15px;
   background-color: white;
   margin: 15px 15px 15px 15px;

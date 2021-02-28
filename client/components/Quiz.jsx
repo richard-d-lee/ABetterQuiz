@@ -33,12 +33,28 @@ function Quiz(props) {
       props.scorePush();
     }
     if (props.score < 3) {
-      return <div className="score"><h1><center>Oh no! You only scored {props.score} out of 10!</center></h1><label className="return" onClick={props.return}>Return to Dashboard</label></div>
+      return <div className="score"><h1 className="for-padding"><center>Oh no! You only scored {props.score} out of 10!</center></h1>
+        <center>
+          <label className="return" onClick={props.return}>Return to Dashboard</label>
+        </center>
+      </div>
     } else if (props.score > 7 && props.score < 10) {
-      return <div className="score"><h1><center>Great job! You scored {props.score} out of 10!</center></h1><label className="return" onClick={props.return}>Return to Dashboard</label></div>
+      return <div className="score"><h1 className="for-padding"><center>Great job! You scored {props.score} out of 10!</center></h1>
+        <center>
+          <label className="return" onClick={props.return}>Return to Dashboard</label>
+        </center>
+      </div>
     } else if (props.score === 10) {
-      return <div className="score"><h1><center>Perfect! You scored {props.score} out of 10!</center></h1><label className="return" onClick={props.return}>Return to Dashboard</label></div>
-    } else return <div className="score"><h1><center>{props.score} out of 10!</center></h1><label className="return" onClick={props.return}>Return to Dashboard</label></div>
+      return <div className="score"><h1 className="for-padding"><center>Perfect! You scored {props.score} out of 10!</center></h1>
+        <center>
+          <label className="return" onClick={props.return}>Return to Dashboard</label>
+        </center>
+      </div>
+    } else return <div className="score"><h1 className="for-padding"><center>{props.score} out of 10!</center></h1>
+      <center>
+        <label className="return" onClick={props.return}>Return to Dashboard</label>
+      </center>
+    </div>
   } else return (
     <div className="quizPage">
       <div className="quiz">
@@ -67,8 +83,8 @@ function Quiz(props) {
           <center>
             <h1 className="quiz-feature" onClick={props.next}>your previous answers</h1>
           </center>
-          </div>
-          <div className="lead-profile">
+        </div>
+        <div className="lead-profile">
           <center>
             <h1 className="quiz-feature">artifacts from {props.country}</h1>
           </center>

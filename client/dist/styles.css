@@ -40,6 +40,8 @@ html {
 }
 
 .answers:hover{
+  color: white;
+  background-color: rgb(47, 93, 161);
   cursor: pointer;
 }
 

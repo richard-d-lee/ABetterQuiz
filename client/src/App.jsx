@@ -451,7 +451,7 @@ class App extends React.Component {
     }
     render() {
         return (
-            <div className="fullBody">
+            <div className="fullBody" >
                 <div className="topBar">
                     <div className="banner" onClick={() => { window.location.reload(false) }}>
                         <Placeholder name={'Quistory'} />
@@ -477,5 +477,6 @@ class App extends React.Component {
         );
     }
 }
+//break the seal
 
 export default App;

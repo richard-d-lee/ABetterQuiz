@@ -477,6 +477,6 @@ class App extends React.Component {
         );
     }
 }
-//break the seal
+//break the seals
 
 export default App;

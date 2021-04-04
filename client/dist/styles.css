@@ -233,6 +233,7 @@ html {
 }
 
 .full-dash {
+  padding: 100px 100px 207px;
   display: flex;
   flex-direction: row;
 }
@@ -266,7 +267,7 @@ html {
 }
 
 .quiz-list {
-  overflow: scroll;
+  overflow: auto;
 }
 
 .list-member {
@@ -292,7 +293,7 @@ html {
   height: 304px;
   width: 535px;
   font-size: x-large !important;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .login-button {
@@ -438,7 +439,7 @@ color: white;
   height: 500px;
   width: 790px;
   margin-left: 40px;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .all-features {
@@ -449,6 +450,7 @@ color: white;
 }
 
 .quizPage {
+  padding-top: 30px;
   display: flex;
   flex-direction: row;
 }
@@ -463,6 +465,7 @@ color: white;
   height: 500px;
   width: 700px;
   border: 10px solid green;
+  border-radius: 27px;
   background-color: rgb(47, 93, 161);
 }
 
@@ -498,7 +501,7 @@ body {
 }
 
 .midText {
-  padding-top: 101px;
+  padding: 193px 100px 100px 207px;
   display: flex;
   flex-direction: row;
 }
@@ -604,6 +607,7 @@ div {
 }
 
 .flier {
+  margin-top: 100px;
   max-height: 200px;
   position: absolute;
   animation-name: diagonal-slide;

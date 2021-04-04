@@ -454,7 +454,7 @@ color: white;
 }
 
 .midBar {
-  padding-top: 101px;
+  padding: 193px 100px 100px 207px;
   display: flex;
   flex-direction: row;
 }

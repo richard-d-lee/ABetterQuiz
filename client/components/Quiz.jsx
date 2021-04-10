@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-//make it stateful?
+//got the deployment lazies
 
 function Quiz(props) {
   console.log('tracker, ', props.tracker)

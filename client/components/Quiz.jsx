@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-//got the deployment lazies
+//got the green 
 
 function Quiz(props) {
   console.log('tracker, ', props.tracker)

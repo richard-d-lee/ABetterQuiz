@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-//got the green 
+//got the greens
 
 function Quiz(props) {
   console.log('tracker, ', props.tracker)
